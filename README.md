@@ -1,4 +1,5 @@
 Install [janus](https://github.com/carlhuda/janus)
+Install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 
 Then:
 
