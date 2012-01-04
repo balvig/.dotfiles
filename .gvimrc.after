@@ -1,0 +1,13 @@
+" Color scheme
+color jellybeans
+
+" Command-T configuration
+let g:CommandTMaxHeight=10
+
+" Font
+set gfn=Menlo\ Regular:h15
+
+" Disable mvim toolbar
+if has("gui_running")
+  set guioptions=egmrt
+endif
