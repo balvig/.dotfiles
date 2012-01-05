@@ -34,4 +34,5 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-[[ -s "/Users/jens/.rvm/scripts/rvm" ]] && source "/Users/jens/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
