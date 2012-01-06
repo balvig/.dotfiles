@@ -1,5 +1,5 @@
 " Color scheme
-color jellybeans
+color jellybeans+
 
 " Command-T configuration
 let g:CommandTMaxHeight=10
