@@ -5,6 +5,7 @@ Install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 Install [iTerm2](http://www.iterm2.com)
 
 Install tmux
+
     brew install tmux
 
 Then:
