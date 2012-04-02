@@ -37,3 +37,4 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/.rbenv/bin:$PATH"
 export EDITOR="mvim"
 eval "$(rbenv init -)"
+alias tmux="TERM=screen-256color-bce tmux -u"
