@@ -34,7 +34,13 @@ plugins=(git bundler)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+# RBENV
 export PATH="$HOME/.rbenv/bin:$PATH"
-export EDITOR="mvim"
 eval "$(rbenv init -)"
+
+# VIM
+export EDITOR="vim"
+
+# TMUX
 alias tmux="TERM=screen-256color-bce tmux -u"
