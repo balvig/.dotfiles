@@ -1,0 +1,9 @@
+project_name: My Project
+project_root: ~/Documents/project_name
+tabs:
+  - editor: vim
+  - shell:
+    - git fetch
+    - git st
+  - app: rails s
+  - console: rails c

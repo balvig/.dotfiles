@@ -43,4 +43,6 @@ eval "$(rbenv init -)"
 export EDITOR="vim"
 
 # TMUX
-alias tmux="TERM=screen-256color-bce tmux -u"
+export TERM="screen-256color-bce"
+alias tmux="tmux -u"
+DISABLE_AUTO_TITLE=true
