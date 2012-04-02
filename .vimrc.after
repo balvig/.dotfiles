@@ -1,3 +1,9 @@
+" Color scheme
+color jellybeans+
+
+" Font
+set gfn=Menlo\ Regular:h15
+
 " Command-T configuration
 let g:CommandTMaxHeight=10
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*,tmp/*,spec/fixtures/cassettes/*,app/assets/images/*,public/*
