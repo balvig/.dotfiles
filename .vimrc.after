@@ -5,7 +5,7 @@ color jellybeans+
 set gfn=Menlo\ Regular:h15
 
 " CtrlP configuration
-set wildignore+=*/spec/fixtures/cassettes/*,*/app/assets/images/*,*/public/*
+set wildignore+=*/tmp/*,*/spec/fixtures/cassettes/*,*/app/assets/images/*,*/public/*
 
 " Strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
