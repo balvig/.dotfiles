@@ -41,6 +41,7 @@ eval "$(rbenv init -)"
 
 # VIM
 export EDITOR="vim"
+alias vi="vim"
 
 # TMUX
 alias tmux="TERM=screen-256color-bce tmux -u"

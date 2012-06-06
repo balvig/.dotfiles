@@ -23,3 +23,6 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
 " custom status line
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+
+" Syntax highlighting for deface files
+au BufNewFile,BufRead *.erb.deface set filetype=eruby
