@@ -46,3 +46,6 @@ alias vi="vim"
 # TMUX
 alias tmux="TERM=screen-256color-bce tmux -u"
 DISABLE_AUTO_TITLE=true
+
+# DISABLE AUTO CORRECT
+unsetopt correct_all
