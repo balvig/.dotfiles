@@ -47,5 +47,8 @@ alias vi="vim"
 alias tmux="TERM=screen-256color-bce tmux -u"
 DISABLE_AUTO_TITLE=true
 
+# BREW
+export PATH="/usr/local/bin:$PATH"
+
 # DISABLE AUTO CORRECT
 unsetopt correct_all
