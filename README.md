@@ -18,7 +18,7 @@ Then:
     ln -s .dotfiles/.zshrc .zshrc
     ln -s .dotfiles/.tmux.conf .tmux.conf
     ln -s .dotfiles/.gitignore_global .gitignore_global
-    git config --global core.excludesfile ~/.gitignore_global
+    ln -s .dotfiles/.gitconfig .gitconfig
     cd .dotfiles
     git submodule init
     git submodule update
