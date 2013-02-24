@@ -26,3 +26,6 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 
 " Syntax highlighting for deface files
 au BufNewFile,BufRead *.erb.deface set filetype=eruby
+
+" Allow vroom to use spring
+let g:vroom_use_spring = 1
