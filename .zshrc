@@ -52,3 +52,6 @@ export PATH="/usr/local/bin:$PATH"
 
 # DISABLE AUTO CORRECT
 unsetopt correct_all
+
+# MAKE ARGS WORK WITH RAKE
+alias rake='noglob rake'
