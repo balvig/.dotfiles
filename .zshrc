@@ -51,7 +51,7 @@ DISABLE_AUTO_TITLE=true
 export PATH="/usr/local/bin:$PATH"
 
 # DISABLE AUTO CORRECT
-unsetopt correct_all
+unsetopt correct
 
 # MAKE ARGS WORK WITH RAKE
 alias rake='noglob rake'
