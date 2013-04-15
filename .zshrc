@@ -55,3 +55,6 @@ unsetopt correct_all
 
 # MAKE ARGS WORK WITH RAKE
 alias rake='noglob rake'
+
+# POSTGRESSAPP
+export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
