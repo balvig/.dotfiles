@@ -36,8 +36,10 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 # RBENV
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if type "rbenv" > /dev/null; then
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
 
 # VIM
 export EDITOR="vim"
