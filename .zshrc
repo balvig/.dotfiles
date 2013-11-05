@@ -31,8 +31,6 @@ ZSH_THEME="minimal"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git bundler)
 
-source $ZSH/oh-my-zsh.sh
-
 # Customize to your needs...
 
 # RBENV
@@ -40,6 +38,9 @@ if type "rbenv" > /dev/null; then
   export PATH="$HOME/.rbenv/bin:$PATH"
   eval "$(rbenv init -)"
 fi
+
+# Needs to come after RBENV
+source $ZSH/oh-my-zsh.sh
 
 # VIM
 export EDITOR="vim"
