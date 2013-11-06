@@ -1,5 +1,5 @@
 " Color scheme
-color jellybeans+
+colorscheme jellybeans+
 
 " Font
 set gfn=Menlo\ Regular:h15
