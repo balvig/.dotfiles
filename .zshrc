@@ -33,8 +33,8 @@ if type "rbenv" > /dev/null; then
 fi
 
 # Needs to come after RBENV
-source $ZSH/oh-my-zsh.sh
 plugins=(git bundler)
+source $ZSH/oh-my-zsh.sh
 
 
 # VIM
