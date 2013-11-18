@@ -26,20 +26,16 @@ ZSH_THEME="minimal"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git bundler)
-
-source $ZSH/oh-my-zsh.sh
-
-# Customize to your needs...
-
 # RBENV
+export PATH="$HOME/.rbenv/bin:$PATH"
 if type "rbenv" > /dev/null; then
-  export PATH="$HOME/.rbenv/bin:$PATH"
   eval "$(rbenv init -)"
 fi
+
+# Needs to come after RBENV
+plugins=(git bundler)
+source $ZSH/oh-my-zsh.sh
+
 
 # VIM
 export EDITOR="vim"
