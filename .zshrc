@@ -55,7 +55,7 @@ unsetopt correct
 alias rake='noglob rake'
 
 # POSTGRESSAPP
-export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
 # ADD RVM TO PATH FOR Nitrous.io
 PATH=$PATH:$HOME/.rvm/bin
