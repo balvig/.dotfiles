@@ -33,3 +33,8 @@ let g:vroom_use_spring = 1
 " Run specs in split screen
 " let g:vroom_use_vimux = 1
 let g:VimuxOrientation = 'h'
+
+" Use ctrl + s to save
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR><Esc>
+inoremap <silent> <C-S>         <C-O>:update<CR><Esc>

@@ -59,3 +59,9 @@ export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
 # ADD RVM TO PATH FOR Nitrous.io
 PATH=$PATH:$HOME/.rvm/bin
+
+# PASS THROUGH CTRL
+stty -ixon
+
+# EVERNOTE
+alias geeknote='python ~/geeknote/geeknote.py'
