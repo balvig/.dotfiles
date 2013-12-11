@@ -4,3 +4,6 @@
 [submodule ".janus/vimux"]
 	path = .janus/vimux
 	url = git://github.com/benmills/vimux.git
+[submodule ".janus/html5.vim"]
+	path = .janus/html5.vim
+	url = git@github.com:othree/html5.vim.git
