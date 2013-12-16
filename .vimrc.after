@@ -30,8 +30,10 @@ au BufNewFile,BufRead *.erb.deface set filetype=eruby
 " Allow vroom to use spring
 let g:vroom_use_spring = 1
 
-" Run specs in split screen
-" let g:vroom_use_vimux = 1
+" Run specs in split screen on large monitors
+if (&columns > 200)
+  let g:vroom_use_vimux = 1
+endif
 let g:VimuxOrientation = 'h'
 
 " Use ctrl + s to save
