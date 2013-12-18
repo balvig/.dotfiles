@@ -40,3 +40,7 @@ let g:VimuxOrientation = 'h'
 noremap <silent> <C-S>          :update<CR>
 vnoremap <silent> <C-S>         <C-C>:update<CR><Esc>
 inoremap <silent> <C-S>         <C-O>:update<CR><Esc>
+
+
+" Open notes
+noremap <silent> <C-N>          :10split ~/.dotfiles/notes.md <CR>
