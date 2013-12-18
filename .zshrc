@@ -62,6 +62,3 @@ PATH=$PATH:$HOME/.rvm/bin
 
 # PASS THROUGH CTRL
 stty -ixon
-
-# EVERNOTE
-alias geeknote='python ~/geeknote/geeknote.py'
