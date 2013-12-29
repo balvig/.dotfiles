@@ -3,6 +3,12 @@
 ## Up next
 
 - Find best way to avoid commiting .gitconfig name/email to .dotfiles
+- Figure out how to handle rubymotion tmux stuff on machines that don't
+  need it
+- Make "p." create a p class='' snippet
+- Hide "errors" for scss files in vim
+- Pull request on capybara-screenshot for option to leave out timestamp
+  from file name
 - Find a way to diff and jump back to gcommit window
 - Find a way to auto-commit+push notes when saving
 
