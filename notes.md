@@ -14,8 +14,8 @@
 
 ## Done
 
-- Easier way to take notes
-- Auto activate vimux only for large monitors
+- [Easier way to take notes](https://github.com/balvig/.dotfiles/commit/a6251ab171a1a21c9bdac34c658f0d98a2ad8dbf)
+- [Auto activate vimux only for large monitors](https://github.com/balvig/.dotfiles/commit/8de036158c2d378062907672d4d62d3fd17764ac)
 - Figure out how to set clock in tmux to local time
 - HTML5 tags not being indented
 - Fix Coffeescript indentation
@@ -24,5 +24,5 @@
 - How to go to start of line inside tmux
 - Try out semaphore
 - save and open page in nitrous
-- Avoid to reboot app when switching environment in iOS app
+- Avoid having to reboot app when switching environment in iOS app
 - Fix bookmark paths (cloudbox should start a root etc)
