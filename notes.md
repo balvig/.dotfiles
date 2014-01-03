@@ -2,7 +2,6 @@
 
 ## Up next
 
-- Figure out RVM problem on nitrous.io
 - YAML file indentation seems weird on enter in vim
 - Figure out how to handle rubymotion tmux stuff on machines that don't
   need it
