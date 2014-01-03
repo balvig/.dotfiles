@@ -15,7 +15,7 @@
 
 ## Done
 
-- Find different shortcut for showing notes
+- [Find different shortcut for showing notes](https://github.com/balvig/.dotfiles/commit/06a0ece3857e68136b2c578659ee7a8b53df5906)
 - [Make "p." create a p class='' snippet](https://github.com/balvig/.dotfiles/commit/2ca5f8ecce9891fb26768f9f7977fb0ca1f55587)
 - [Easier way to take notes](https://github.com/balvig/.dotfiles/commit/a6251ab171a1a21c9bdac34c658f0d98a2ad8dbf)
 - [Auto activate vimux only for large monitors](https://github.com/balvig/.dotfiles/commit/8de036158c2d378062907672d4d62d3fd17764ac)
