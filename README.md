@@ -1,8 +1,8 @@
+Install [iTerm2](http://www.iterm2.com)
+
 Install [janus](https://github.com/carlhuda/janus)
 
 Install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
-
-Install [iTerm2](http://www.iterm2.com)
 
 Install tmux
 
@@ -10,7 +10,7 @@ Install tmux
 
 Then:
 
-    cd ~
+    cd
     git clone git@github.com:balvig/.dotfiles.git
     ln -s .dotfiles/.vimrc.after .vimrc.after
     ln -s .dotfiles/.janus .janus
@@ -22,3 +22,11 @@ Then:
     cd .dotfiles
     git submodule init
     git submodule update
+
+Set up local gitconfig:
+
+    vi ~/.gitconfig.local
+
+    [user]
+    name = Jens Balvig
+    email = git@email.com
