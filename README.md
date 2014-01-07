@@ -11,6 +11,7 @@
 ```bash
 cd
 git clone git@github.com:balvig/.dotfiles.git
+ln -s .dotfiles/.vimrc.before .vimrc.before
 ln -s .dotfiles/.vimrc.after .vimrc.after
 ln -s .dotfiles/.janus .janus
 ln -s ~/.dotfiles/jellybeans+.vim ~/.vim/janus/vim/colors/sampler-pack/colors/jellybeans+.vim

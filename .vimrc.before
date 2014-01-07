@@ -1,0 +1,2 @@
+" SCSS highlighting seems to get messed up when it's activated?
+call janus#disable_plugin('scss')
