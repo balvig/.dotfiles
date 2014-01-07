@@ -2,7 +2,7 @@
 
 ## Up next
 
-- Fix "errors" for scss files in vim
+
 - Pull request on capybara-screenshot for option to leave out timestamp
   from file name
 - Find a way to diff and jump back to gcommit window
@@ -10,6 +10,7 @@
 
 ## Done
 
+- [Fix "errors" for scss files in vim](https://github.com/balvig/.dotfiles/commit/70f3754aa6f5209b054c26e0e9e71b0ed1b61dc9)
 - [Figure out how to handle rubymotion tmux stuff on machines that don't need it](https://github.com/balvig/.dotfiles/commit/aa04ff9ea2905b32d082400e13f73f6b1ce1fc8e)
 - [YAML file indentation seems weird on enter in vim](https://github.com/balvig/.dotfiles/commit/a72bb0c01e0d122b206a63c66391c1d8bc78d4b0)
 - [Find best way to avoid commiting .gitconfig name/email to .dotfiles](https://github.com/balvig/.dotfiles/commit/1e9aa92f5f7a64134f50761aba38ae8bae81b34e)
