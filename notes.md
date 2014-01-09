@@ -2,7 +2,7 @@
 
 ## Up next
 
-- Find a way to diff and jump back to gcommit window
+- Find a way to diff and jump back to :Gcommit window
 
 ## Done
 
