@@ -40,3 +40,6 @@ inoremap <silent> <C-S>         <C-O>:update<CR><Esc>
 
 " Open notes
 noremap <silent> <leader>q          :10split ~/.dotfiles/notes.md <CR>
+
+" Auto-save and push notes file
+autocmd BufWritePost * execute ':silent ! if [[ % == *.dotfiles/notes.md ]]; then gitdir=$(dirname %)/.git; worktree=$(dirname %); git --git-dir=$gitdir --work-tree=$worktree add % ; git --git-dir=$gitdir --work-tree=$worktree commit -m "Update notes.md"; git --git-dir=$gitdir --work-tree=$worktree push; fi'
