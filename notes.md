@@ -3,7 +3,8 @@
 ## Up next
 
 - Find a way to diff and jump back to gcommit window
-- Find a way to auto-commit+push notes when saving
+- [Find a way to auto-commit+push notes when
+  saving](https://github.com/balvig/.dotfiles/commit/eba6cc8baf0926c407daffc891accb214ade5848)
 
 ## Done
 
