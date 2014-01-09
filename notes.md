@@ -3,11 +3,10 @@
 ## Up next
 
 - Find a way to diff and jump back to gcommit window
-- [Find a way to auto-commit+push notes when
-  saving](https://github.com/balvig/.dotfiles/commit/eba6cc8baf0926c407daffc891accb214ade5848)
 
 ## Done
 
+- [Find a way to auto-commit+push notes when saving](https://github.com/balvig/.dotfiles/commit/eba6cc8baf0926c407daffc891accb214ade5848)
 - [Pull request on capybara-screenshot for option to leave out timestamp from file name](https://github.com/mattheworiordan/capybara-screenshot/pull/70)
 - [Fix "errors" for scss files in vim](https://github.com/balvig/.dotfiles/commit/70f3754aa6f5209b054c26e0e9e71b0ed1b61dc9)
 - [Figure out how to handle rubymotion tmux stuff on machines that don't need it](https://github.com/balvig/.dotfiles/commit/aa04ff9ea2905b32d082400e13f73f6b1ce1fc8e)
