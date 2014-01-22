@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Create bf/ba-snippets for `before_action`
 - Find a way to diff and jump back to :Gcommit window
 
 ## Done
