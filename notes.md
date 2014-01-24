@@ -2,7 +2,7 @@
 
 ## Up next
 
-- Figure out if auto commit is slowing down vim
+- Disable scss "error compilation"
 - Any way to auto enable/disable "set paste" when pasting?
 - Create bf/ba-snippets for `before_action`
 - Find a way to diff and jump back to :Gcommit window
