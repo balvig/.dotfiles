@@ -43,3 +43,6 @@ noremap <silent> <leader>q          :10split ~/.dotfiles/notes.md <CR>
 
 " Auto-save and push notes file
 autocmd BufWritePost * execute ':silent ! if [[ % == *.dotfiles/notes.md ]]; then gitdir=$(dirname %)/.git; worktree=$(dirname %); git --git-dir=$gitdir --work-tree=$worktree add % ; git --git-dir=$gitdir --work-tree=$worktree commit -m "Update notes.md"; git --git-dir=$gitdir --work-tree=$worktree push; fi > /dev/null 2>&1'
+
+" Disable SCSS linting (too slow and often wrong)
+let g:syntastic_scss_checkers=[]
