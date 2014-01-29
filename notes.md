@@ -2,13 +2,14 @@
 
 ## Up next
 
-- Disable scss "error compilation"
+- Find a way to use "hub browse" on nitrous server
 - Any way to auto enable/disable "set paste" when pasting?
 - Create bf/ba-snippets for `before_action`
 - Find a way to diff and jump back to :Gcommit window
 
 ## Done
 
+- [Disable scss "error compilation"](https://github.com/balvig/.dotfiles/commit/f87b303de4950c36da40932bcabf58ced206684a)
 - [Find a way to auto-commit+push notes when saving](https://github.com/balvig/.dotfiles/commit/eba6cc8baf0926c407daffc891accb214ade5848)
 - [Pull request on capybara-screenshot for option to leave out timestamp from file name](https://github.com/mattheworiordan/capybara-screenshot/pull/70)
 - [Fix "errors" for scss files in vim](https://github.com/balvig/.dotfiles/commit/70f3754aa6f5209b054c26e0e9e71b0ed1b61dc9)
