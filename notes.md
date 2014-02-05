@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Ugh, don't like expect syntax at all, check out minitest
 - Find a way to use "hub browse" on nitrous server
 - Any way to auto enable/disable "set paste" when pasting?
 - Create bf/ba-snippets for `before_action`
