@@ -4,8 +4,7 @@
 
 - Ugh, don't like expect syntax at all, check out minitest
 - Find a way to diff and jump back to :Gcommit window
-- Any way to auto enable/disable "set paste" when pasting? (maybe
-  fixed?)
+- Any way to auto enable/disable "set paste" when pasting?
 
 ## Done
 
