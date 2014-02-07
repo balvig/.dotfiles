@@ -42,3 +42,8 @@ PATH=$PATH:$HOME/.rvm/bin
 
 # Pass through ctrl-key
 stty -ixon
+
+# Just output URL when no browser is available for hub etc
+if [[ `uname` != 'Darwin' ]]; then
+  export BROWSER=echo
+fi
