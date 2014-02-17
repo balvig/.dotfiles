@@ -46,3 +46,6 @@ autocmd BufWritePost * execute ':silent ! if [[ % == *.dotfiles/notes.md ]]; the
 
 " Disable SCSS linting (too slow and often wrong)
 let g:syntastic_scss_checkers=[]
+
+" Move from diff to Gstatus view and stage file by pressing - twice
+noremap <silent> - <C-w>k
