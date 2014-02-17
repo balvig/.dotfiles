@@ -2,14 +2,14 @@
 
 ## Up next
 
-- Add option in pt-flow to auto-merge PR
 - Disable CSS colors in vim
+- Add option in pt-flow to auto-merge PR
 - Ugh, don't like expect syntax at all, check out minitest
-- Find a way to diff and jump back to :Gcommit window
 - Any way to auto enable/disable "set paste" when pasting?
 
 ## Done
 
+- [Find a way to diff and jump back to :Gcommit window](https://github.com/balvig/.dotfiles/commit/a2794a4fc042f3e859bf79183d5aa0717fe36cc8)
 - [Find a way to use "hub browse" on nitrous server](https://github.com/balvig/.dotfiles/commit/917d2dc12244766397386f08e29b46892329b228)
 - [Create bf/ba-snippets for `before_action`](https://github.com/balvig/.dotfiles/commit/050624661a307b52dcab5c32391005d2794410b7)
 - [Disable scss "error compilation"](https://github.com/balvig/.dotfiles/commit/f87b303de4950c36da40932bcabf58ced206684a)
