@@ -3,7 +3,8 @@
 ## Up next
 
 - Disable CSS colors in vim
-- Add option in pt-flow to auto-merge PR
+- Add option in pt-flow to auto-merge PR and move back to master and
+  pull
 - Ugh, don't like expect syntax at all, check out minitest
 - Any way to auto enable/disable "set paste" when pasting?
 
