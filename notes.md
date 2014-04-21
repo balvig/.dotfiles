@@ -3,6 +3,7 @@
 ## Up next
 
 - Move tmux color scheme to separate file
+- Make rvm work properly in tmux on nitrous
 - Disable CSS colors in vim
 - Add option in pt-flow to auto-merge PR and move back to master and
   pull
