@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Move tmux color scheme to separate file
 - Disable CSS colors in vim
 - Add option in pt-flow to auto-merge PR and move back to master and
   pull
