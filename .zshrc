@@ -31,9 +31,6 @@ export PATH="/usr/local/bin:$PATH"
 # Disable auto correct
 setopt nocorrectall
 
-# Make args work with rake
-alias rake='noglob rake'
-
 # Postgressapp
 export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
