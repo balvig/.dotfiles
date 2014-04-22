@@ -2,6 +2,8 @@
 
 ## Up next
 
+- Figure out easier way to switch tmux/vim/terminal colors from light to
+  dark all at once
 - Make rvm work properly in tmux on nitrous
 - Disable CSS colors in vim
 - Add option in pt-flow to auto-merge PR and move back to master and
