@@ -11,14 +11,14 @@
 ```bash
 cd
 git clone git@github.com:balvig/.dotfiles.git
-ln -s .dotfiles/.vimrc.before .vimrc.before
-ln -s .dotfiles/.vimrc.after .vimrc.after
-ln -s .dotfiles/.janus .janus
-ln -s ~/.dotfiles/jellybeans+.vim ~/.vim/janus/vim/colors/sampler-pack/colors/jellybeans+.vim
-ln -s .dotfiles/.zshrc .zshrc
-ln -s .dotfiles/.tmux.conf .tmux.conf
-ln -s .dotfiles/.gitignore_global .gitignore_global
-ln -s .dotfiles/.gitconfig .gitconfig
+ln -sf .dotfiles/.vimrc.before .vimrc.before
+ln -sf .dotfiles/.vimrc.after .vimrc.after
+ln -sf .dotfiles/.janus .janus
+ln -sf ~/.dotfiles/jellybeans+.vim ~/.vim/janus/vim/colors/sampler-pack/colors/jellybeans+.vim
+ln -sf .dotfiles/.zshrc .zshrc
+ln -sf .dotfiles/.tmux.conf .tmux.conf
+ln -sf .dotfiles/.gitignore_global .gitignore_global
+ln -sf .dotfiles/.gitconfig .gitconfig
 ```
 
 #### Update submodules
