@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Update pt-flow syntax for hub
 - Make binstubs work on nitrous
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
