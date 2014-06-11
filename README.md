@@ -8,8 +8,9 @@
 
 ##### Nitrous.io
 - Install [janus](https://github.com/carlhuda/janus)
-- Install tmux `parts install zsh`
 - Install tmux `parts install tmux`
+- Install tmux `parts install postgresql`
+- Install tmux `parts install zsh`
 
 
 #### Symlink files
