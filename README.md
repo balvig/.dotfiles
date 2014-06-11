@@ -8,6 +8,7 @@
 
 ##### Nitrous.io
 - Install [janus](https://github.com/carlhuda/janus)
+- Install tmux `parts install zsh`
 - Install tmux `parts install tmux`
 
 
@@ -15,7 +16,7 @@
 
 ```bash
 cd
-git clone https://github.com/balvig/.dotfiles.git
+git clone git@github.com:balvig/.dotfiles.git
 ln -sf .dotfiles/.vimrc.before .vimrc.before
 ln -sf .dotfiles/.vimrc.after .vimrc.after
 ln -sf .dotfiles/.janus .janus
