@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Make pasting work on nitrous (it comes out on one line)
 - Figure out rake db:test:prepare stuff
 - Update pt-flow syntax for hub
 - Make binstubs work on nitrous
@@ -10,7 +11,6 @@
 - Disable CSS colors in vim
 - Add option in pt-flow to auto-merge PR and move back to master and
   pull
-- Ugh, don't like expect syntax at all, check out minitest
 - Any way to auto enable/disable "set paste" when pasting?
 
 ## Done
