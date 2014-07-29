@@ -38,6 +38,9 @@ noremap <silent> <C-S>          :update<CR>
 vnoremap <silent> <C-S>         <C-C>:update<CR><Esc>
 inoremap <silent> <C-S>         <C-O>:update<CR><Esc>
 
+" Use ctrl + q to close
+noremap <silent> <C-Q>          :q<CR>
+
 " Open notes
 noremap <silent> <leader>q          :10split ~/.dotfiles/notes.md <CR>
 
