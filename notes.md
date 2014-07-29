@@ -2,7 +2,6 @@
 
 ## Up next
 
-- Disable CSS colors in vim
 - Update pt-flow syntax for hub
 - Make pasting work on nitrous (it comes out on one line)
 - Make binstubs work on nitrous
@@ -14,6 +13,7 @@
 
 ## Done
 
+- [Disable CSS colors in vim](https://github.com/balvig/.dotfiles/commit/cc9e0cc3b25a8d470606e62a3f5ec368a7264123)
 - [Figure out rake db:test:prepare stuff](https://www.relishapp.com/rspec/rspec-rails/docs/upgrade)
 - [Move tmux color scheme to separate file](https://github.com/balvig/.dotfiles/commit/3918d76a1e68b3735372fdcc7242d82b2860c42c)
 - [Find a way to diff and jump back to :Gcommit window](https://github.com/balvig/.dotfiles/commit/a2794a4fc042f3e859bf79183d5aa0717fe36cc8)
