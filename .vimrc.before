@@ -1,2 +1,6 @@
 " SCSS highlighting seems to get messed up when it's activated?
 call janus#disable_plugin('scss')
+
+" Powerline colors
+let g:Powerline_colorscheme='solarized256_dark'
+let g:Powerline_theme='short'
