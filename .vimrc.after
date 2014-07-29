@@ -52,3 +52,6 @@ let g:syntastic_scss_checkers=[]
 
 " Move from diff to Gstatus view and stage file by pressing - twice
 noremap <silent> - <C-w>k
+
+" indent private methods
+let g:ruby_indent_access_modifier_style="indent"
