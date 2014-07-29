@@ -2,19 +2,19 @@
 
 ## Up next
 
-- Make pasting work on nitrous (it comes out on one line)
-- Figure out rake db:test:prepare stuff
+- Disable CSS colors in vim
 - Update pt-flow syntax for hub
+- Make pasting work on nitrous (it comes out on one line)
 - Make binstubs work on nitrous
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
-- Disable CSS colors in vim
 - Add option in pt-flow to auto-merge PR and move back to master and
   pull
 - Any way to auto enable/disable "set paste" when pasting?
 
 ## Done
 
+- [Figure out rake db:test:prepare stuff](https://www.relishapp.com/rspec/rspec-rails/docs/upgrade)
 - [Move tmux color scheme to separate file](https://github.com/balvig/.dotfiles/commit/3918d76a1e68b3735372fdcc7242d82b2860c42c)
 - [Find a way to diff and jump back to :Gcommit window](https://github.com/balvig/.dotfiles/commit/a2794a4fc042f3e859bf79183d5aa0717fe36cc8)
 - [Find a way to use "hub browse" on nitrous server](https://github.com/balvig/.dotfiles/commit/917d2dc12244766397386f08e29b46892329b228)
