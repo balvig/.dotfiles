@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Automatically set upstream when trying to push
 - Sort out zsh on nitrou.io
 - Setup shortcut for toggling vimux
 - Make binstubs work on nitrous
