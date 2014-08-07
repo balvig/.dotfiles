@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Sort out zsh on nitrou.io
 - Setup shortcut for toggling vimux
 - Make binstubs work on nitrous
 - Figure out easier way to switch tmux/vim/terminal colors from light to
