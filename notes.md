@@ -2,7 +2,7 @@
 
 ## Up next
 
-- Make pasting work on nitrous (it comes out on one line)
+- Setup shortcut for toggling vimux
 - Make binstubs work on nitrous
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
