@@ -27,10 +27,8 @@ au BufNewFile,BufRead *.erb.deface set filetype=eruby
 " Allow vroom to use binstubs
 let g:vroom_use_binstubs = 1
 
-" Run specs in split screen on large monitors
-if (&columns > 200)
-  let g:vroom_use_vimux = 1
-endif
+" Run specs in split screen
+let g:vroom_use_vimux = 1
 let g:VimuxOrientation = 'h'
 
 " Use ctrl + s to save
