@@ -12,6 +12,7 @@
 - Install postgres `parts install postgresql`
 - Install zsh `parts install zsh`
 - Install phantomjs `parts install phantomjs`
+- Install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 
 
 #### Symlink files
