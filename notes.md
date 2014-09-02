@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Fix html snippets giving options everytime
 - Automatically set upstream when trying to push
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
