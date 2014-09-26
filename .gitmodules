@@ -13,3 +13,6 @@
 [submodule ".janus/vim-solarized-powerline"]
 	path = .janus/vim-solarized-powerline
 	url = https://github.com/stephenmckinney/vim-solarized-powerline.git
+[submodule ".janus/vim-bundler"]
+	path = .janus/vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
