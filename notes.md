@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Make pt-flow work better with hub checkout URL
 - Fix html snippets giving options everytime
 - Automatically set upstream when trying to push
 - Figure out easier way to switch tmux/vim/terminal colors from light to
