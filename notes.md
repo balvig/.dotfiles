@@ -3,7 +3,6 @@
 ## Up next
 
 - Make pt-flow work better with hub checkout URL
-- Fix html snippets giving options everytime
 - Automatically set upstream when trying to push
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
@@ -13,6 +12,7 @@
 
 ## Done
 
+- Fix html snippets giving options everytime
 - Sort out zsh on nitrou.io
 - [Update pt-flow syntax for hub](https://github.com/balvig/pt-flow/commit/894a5f42b69b4ec346ab61f10eef7d58bdb6f447)
 - [Disable CSS colors in vim](https://github.com/balvig/.dotfiles/commit/cc9e0cc3b25a8d470606e62a3f5ec368a7264123)
