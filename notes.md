@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Have vimstubs auto-detect binstubs somehow
 - Make pt-flow work better with hub checkout URL
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
