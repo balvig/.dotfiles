@@ -6,12 +6,11 @@
 - Make pt-flow work better with hub checkout URL
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
-- Add option in pt-flow to auto-merge PR and move back to master and
-  pull
 - Any way to auto enable/disable "set paste" when pasting?
 
 ## Done
 
+- [Add option in pt-flow to auto-merge PR and move back to master and pull](https://github.com/balvig/pt-flow/commit/9d48fbd2595038ebb9b0496946f62f1bbbf77386)
 - [Update pt-flow syntax for hub](https://github.com/balvig/pt-flow/commit/894a5f42b69b4ec346ab61f10eef7d58bdb6f447)
 - [Disable CSS colors in vim](https://github.com/balvig/.dotfiles/commit/cc9e0cc3b25a8d470606e62a3f5ec368a7264123)
 - [Figure out rake db:test:prepare stuff](https://www.relishapp.com/rspec/rspec-rails/docs/upgrade)
