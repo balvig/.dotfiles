@@ -2,7 +2,6 @@
 
 ## Up next
 
-- Set up a way to run whole minitest suite
 - Figure out how to run individual minitests
 - Have vimstubs auto-detect binstubs somehow
 - Make pt-flow work better with hub checkout URL
@@ -12,6 +11,7 @@
 
 ## Done
 
+- [Set up a way to run whole minitest suite](https://github.com/balvig/spike/commit/5baeabeb130eb8e3e76ca91d9d3e6c7ca5e535df)
 - [Add option in pt-flow to auto-merge PR and move back to master and pull](https://github.com/balvig/pt-flow/commit/9d48fbd2595038ebb9b0496946f62f1bbbf77386)
 - [Update pt-flow syntax for hub](https://github.com/balvig/pt-flow/commit/894a5f42b69b4ec346ab61f10eef7d58bdb6f447)
 - [Disable CSS colors in vim](https://github.com/balvig/.dotfiles/commit/cc9e0cc3b25a8d470606e62a3f5ec368a7264123)
