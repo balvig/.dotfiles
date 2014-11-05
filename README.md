@@ -8,10 +8,7 @@
 
 ##### Nitrous.io
 - Install [janus](https://github.com/carlhuda/janus)
-- Install tmux `parts install tmux`
-- Install postgres `parts install postgresql`
-- Install zsh `parts install zsh`
-- Install phantomjs `parts install phantomjs`
+- Install autoparts `parts install tmux postgresql mysql zsh phantomjs`
 - Install [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 
 
