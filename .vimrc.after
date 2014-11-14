@@ -29,8 +29,11 @@ let g:vroom_use_binstubs = 1
 
 " Run specs in split screen
 let g:vroom_use_vimux = 1
+let g:VimuxOrientation = 'h'
 if (&columns > 200)
-  let g:VimuxOrientation = 'h'
+  let g:VimuxHeight = 30
+else
+  let g:VimuxHeight = 50
 endif
 
 
