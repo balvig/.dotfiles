@@ -2,6 +2,8 @@
 
 ## Up next
 
+- Find a way to avoid JS "end" snippet in erb files
+- Figure out what's up with Gbrowse
 - Figure out how to run individual minitests
 - Have vimstubs auto-detect binstubs somehow
 - Make pt-flow work better with hub checkout URL
