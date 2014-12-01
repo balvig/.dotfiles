@@ -2,7 +2,7 @@
 
 ## Up next
 
-- Figure out what's up with Gbrowse
+- CLI for idonethis goals/dones
 - Figure out how to run individual minitests
 - Have vimstubs auto-detect binstubs somehow
 - Make pt-flow work better with hub checkout URL
@@ -12,6 +12,7 @@
 
 ## Done
 
+- Figure out what's up with Gbrowse
 - [Find a way to avoid JS "end" snippet in erb files](https://github.com/balvig/.dotfiles/commit/258fb7cfed4f5ddddc084b474ec04e85662659c3)
 - [Set up a way to run whole minitest suite](https://github.com/balvig/spike/commit/5baeabeb130eb8e3e76ca91d9d3e6c7ca5e535df)
 - [Add option in pt-flow to auto-merge PR and move back to master and pull](https://github.com/balvig/pt-flow/commit/9d48fbd2595038ebb9b0496946f62f1bbbf77386)
