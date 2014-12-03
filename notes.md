@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Bug pull requests in pt-flow should be prepended with "Bug: "
 - CLI for idonethis goals/dones
 - Figure out how to run individual minitests
 - Have vimstubs auto-detect binstubs somehow
