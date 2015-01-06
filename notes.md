@@ -2,7 +2,8 @@
 
 ## Up next
 
-- Bug pull requests in pt-flow should be prepended with "Bug: "
+- Allow pt-flow to show list of only my tasks
+- Allow pt-flow to show owners
 - CLI for idonethis goals/dones
 - Figure out how to run individual minitests
 - Have vimstubs auto-detect binstubs somehow
@@ -13,6 +14,7 @@
 
 ## Done
 
+- [Bug pull requests in pt-flow should be prepended with "Bugfix: "](https://github.com/balvig/pt-flow/commit/18d21e9a1b7e4c61b501128f0795484f4c88543b)
 - Figure out what's up with Gbrowse
 - [Find a way to avoid JS "end" snippet in erb files](https://github.com/balvig/.dotfiles/commit/258fb7cfed4f5ddddc084b474ec04e85662659c3)
 - [Set up a way to run whole minitest suite](https://github.com/balvig/spike/commit/5baeabeb130eb8e3e76ca91d9d3e6c7ca5e535df)
