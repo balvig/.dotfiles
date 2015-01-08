@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Allow pt-flow finish to add PR description
 - Allow pt-flow to show list of only my tasks
 - Allow pt-flow to show owners
 - CLI for idonethis goals/dones
