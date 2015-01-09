@@ -2,7 +2,6 @@
 
 ## Up next
 
-- Allow pt-flow finish to add PR description
 - Allow pt-flow to show list of only my tasks
 - Allow pt-flow to show owners
 - CLI for idonethis goals/dones
@@ -15,6 +14,7 @@
 
 ## Done
 
+- [Allow pt-flow finish to add PR description](https://github.com/balvig/pt-flow/pull/32)
 - [Bug pull requests in pt-flow should be prepended with "Bugfix: "](https://github.com/balvig/pt-flow/commit/18d21e9a1b7e4c61b501128f0795484f4c88543b)
 - Figure out what's up with Gbrowse
 - [Find a way to avoid JS "end" snippet in erb files](https://github.com/balvig/.dotfiles/commit/258fb7cfed4f5ddddc084b474ec04e85662659c3)
