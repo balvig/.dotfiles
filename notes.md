@@ -2,11 +2,11 @@
 
 ## Up next
 
-- Allow pt-flow to show list of only my tasks
+- Figure out what is up with nitrous.io...
 - Allow pt-flow to show owners
-- CLI for idonethis goals/dones
+- Allow pt-flow to show list of only my tasks
+- Have vimstubs auto-detect binstubs/bundler somehow
 - Figure out how to run individual minitests
-- Have vimstubs auto-detect binstubs somehow
 - Make pt-flow work better with hub checkout URL
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
