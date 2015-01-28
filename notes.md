@@ -3,9 +3,6 @@
 ## Up next
 
 - Allow pt-flow to show list of only my tasks
-- Figure out what is up with nitrous.io...
-- Have vimstubs auto-detect binstubs/bundler somehow
-- Figure out how to run individual minitests
 - Make pt-flow work better with hub checkout URL
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
@@ -13,6 +10,8 @@
 
 ## Done
 
+- [Have vim auto-detect binstubs/bundler somehow](https://github.com/balvig/.dotfiles/commit/18ecc5d8150ba777a7eaea94dce34f20eca7c54f)
+- [Figure out how to run individual minitests](https://github.com/balvig/.dotfiles/commit/18ecc5d8150ba777a7eaea94dce34f20eca7c54f)
 - [Allow pt-flow to show owners](https://github.com/balvig/pt-flow/commit/e93a75c4e783b64b1fc47b5295930955c457de4c)
 - [Allow pt-flow finish to add PR description](https://github.com/balvig/pt-flow/pull/32)
 - [Bug pull requests in pt-flow should be prepended with "Bugfix: "](https://github.com/balvig/pt-flow/commit/18d21e9a1b7e4c61b501128f0795484f4c88543b)
