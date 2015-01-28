@@ -16,3 +16,6 @@
 [submodule ".janus/vim-bundler"]
 	path = .janus/vim-bundler
 	url = https://github.com/tpope/vim-bundler.git
+[submodule "antigen"]
+	path = antigen
+	url = https://github.com/zsh-users/antigen.git

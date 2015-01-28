@@ -1,21 +1,28 @@
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+source ~/.dotfiles/antigen/antigen.zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="minimal"
+# Load oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle bundler
+antigen bundle gitfast
+antigen bundle heroku
+antigen bundle command-not-found
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Load the theme.
+antigen theme minimal
+
+# Tell antigen that you're done.
+antigen apply
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 if type "rbenv" > /dev/null; then
   eval "$(rbenv init -)"
 fi
-
-# Needs to come after rbenv
-plugins=(git bundler)
-source $ZSH/oh-my-zsh.sh
 
 # vim
 export EDITOR="vim"
@@ -27,9 +34,6 @@ DISABLE_AUTO_TITLE=true
 
 # Brew
 export PATH="/usr/local/bin:$PATH"
-
-# Disable auto correct
-setopt nocorrectall
 
 # Postgressapp
 export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
