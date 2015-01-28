@@ -24,8 +24,10 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 " Syntax highlighting for deface files
 au BufNewFile,BufRead *.erb.deface set filetype=eruby
 
-" Allow vroom to use binstubs
-let g:vroom_use_binstubs = 1
+" Set up vim-test
+nmap <silent> <leader>r :TestFile<CR>
+nmap <silent> <leader>R :TestNearest<CR>
+let g:test#strategy = 'vimux'
 
 " Run specs in split screen
 let g:vroom_use_vimux = 1
@@ -35,7 +37,6 @@ if (&columns > 200)
 else
   let g:VimuxHeight = 50
 endif
-
 
 " Use ctrl + s to save
 noremap <silent> <C-S>          :update<CR>

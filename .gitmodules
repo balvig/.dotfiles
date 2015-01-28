@@ -19,3 +19,6 @@
 [submodule "antigen"]
 	path = antigen
 	url = https://github.com/zsh-users/antigen.git
+[submodule ".janus/vim-test"]
+	path = .janus/vim-test
+	url = git@github.com:janko-m/vim-test.git
