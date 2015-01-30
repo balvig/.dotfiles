@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Remove p. from mysnippets
 - Allow pt-flow to show list of only my tasks
 - Make pt-flow work better with hub checkout URL
 - Figure out easier way to switch tmux/vim/terminal colors from light to
