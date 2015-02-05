@@ -2,7 +2,6 @@
 
 ## Up next
 
-- Remove p. from mysnippets
 - Allow pt-flow to show list of only my tasks
 - Make pt-flow work better with hub checkout URL
 - Figure out easier way to switch tmux/vim/terminal colors from light to
@@ -11,6 +10,7 @@
 
 ## Done
 
+- [Remove p. from mysnippets](https://github.com/balvig/.dotfiles/commit/7ad59359ed553853687fc1d4fea86c4b68471b12)
 - [Have vim auto-detect binstubs/bundler somehow](https://github.com/balvig/.dotfiles/commit/18ecc5d8150ba777a7eaea94dce34f20eca7c54f)
 - [Figure out how to run individual minitests](https://github.com/balvig/.dotfiles/commit/18ecc5d8150ba777a7eaea94dce34f20eca7c54f)
 - [Allow pt-flow to show owners](https://github.com/balvig/pt-flow/commit/e93a75c4e783b64b1fc47b5295930955c457de4c)
