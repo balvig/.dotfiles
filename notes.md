@@ -3,13 +3,13 @@
 ## Up next
 
 - Allow pt-flow to show list of only my tasks
-- Make pt-flow work better with hub checkout URL
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
 - Any way to auto enable/disable "set paste" when pasting?
 
 ## Done
 
+- [Make pt-flow work better with hub checkout URL](https://github.com/balvig/pt-flow/commit/c06445bf570a71b4c219aebe3856f725c16dd21f)
 - [Remove p. from mysnippets](https://github.com/balvig/.dotfiles/commit/7ad59359ed553853687fc1d4fea86c4b68471b12)
 - [Have vim auto-detect binstubs/bundler somehow](https://github.com/balvig/.dotfiles/commit/18ecc5d8150ba777a7eaea94dce34f20eca7c54f)
 - [Figure out how to run individual minitests](https://github.com/balvig/.dotfiles/commit/18ecc5d8150ba777a7eaea94dce34f20eca7c54f)
