@@ -6,6 +6,7 @@
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
 - Any way to auto enable/disable "set paste" when pasting?
+- Useful error message when not passing in a has to Spyke.new
 
 ## Done
 
