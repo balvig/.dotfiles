@@ -2,6 +2,7 @@
 
 ## Up next
 
+- Figure out why leader+r sometimes doesn't run specs
 - Allow pt-flow to show list of only my tasks
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
