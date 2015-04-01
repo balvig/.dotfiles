@@ -38,9 +38,6 @@ export PATH="/usr/local/bin:$PATH"
 # Postgressapp
 export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
-# Add RVM to path for Nitrous.io
-PATH=$PATH:$HOME/.rvm/bin
-
 # Pass through ctrl-key
 stty -ixon
 
