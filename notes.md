@@ -2,6 +2,8 @@
 
 ## Up next
 
+- Make git finish --draft work in Nitrous
+- Make a `git wip` or similar command to start a WIP pull request
 - Also clean up branches that don't have story numbers in pt-flow
 - Figure out why leader+r sometimes doesn't run specs
 - Allow pt-flow to show list of only my tasks
