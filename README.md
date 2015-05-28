@@ -5,10 +5,6 @@
 - Install [janus](https://github.com/carlhuda/janus)
 - Install tmux `brew install tmux`
 
-##### Nitrous.io
-- Install [janus](https://github.com/carlhuda/janus)
-- Install autoparts `parts install tmux postgresql mysql zsh phantomjs`
-
 ##### Nitrous Pro
 - Install [janus](https://github.com/carlhuda/janus)
 - Install libs `sudo apt-get install libmysqlclient-dev mongodb phantomjs`
