@@ -2,8 +2,7 @@
 
 ## Up next
 
-- Make git finish --draft work in Nitrous
-- Make a `git wip` or similar command to start a WIP pull request
+- Figured out why light backgrounds are off in vim
 - Also clean up branches that don't have story numbers in pt-flow
 - Figure out why leader+r sometimes doesn't run specs
 - Allow pt-flow to show list of only my tasks
@@ -14,6 +13,8 @@
 
 ## Done
 
+- [Make git finish --draft work in Nitrous](https://github.com/balvig/pt-flow/pull/35)
+- [Make a `git wip` or similar command to start a WIP pull request](https://github.com/balvig/pt-flow/pull/36)
 - [Make pt-flow work better with hub checkout URL](https://github.com/balvig/pt-flow/commit/c06445bf570a71b4c219aebe3856f725c16dd21f)
 - [Remove p. from mysnippets](https://github.com/balvig/.dotfiles/commit/7ad59359ed553853687fc1d4fea86c4b68471b12)
 - [Have vim auto-detect binstubs/bundler somehow](https://github.com/balvig/.dotfiles/commit/18ecc5d8150ba777a7eaea94dce34f20eca7c54f)
