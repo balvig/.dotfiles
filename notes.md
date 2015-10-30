@@ -5,7 +5,6 @@
 - Figured out why light backgrounds are off in vim
 - Also clean up branches that don't have story numbers in pt-flow
 - Figure out why leader+r sometimes doesn't run specs
-- Allow pt-flow to show list of only my tasks
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
 - Any way to auto enable/disable "set paste" when pasting?
@@ -13,6 +12,7 @@
 
 ## Done
 
+- [Allow pt-flow to show list of only my tasks](https://github.com/balvig/pt-flow/pull/38)
 - [Make git finish --draft work in Nitrous](https://github.com/balvig/pt-flow/pull/35)
 - [Make a `git wip` or similar command to start a WIP pull request](https://github.com/balvig/pt-flow/pull/36)
 - [Make pt-flow work better with hub checkout URL](https://github.com/balvig/pt-flow/commit/c06445bf570a71b4c219aebe3856f725c16dd21f)
