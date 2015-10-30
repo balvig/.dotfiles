@@ -2,13 +2,12 @@
 
 ## Up next
 
-- Figured out why light backgrounds are off in vim
 - Also clean up branches that don't have story numbers in pt-flow
 - Figure out why leader+r sometimes doesn't run specs
+- Figure out why light backgrounds are off in vim
 - Figure out easier way to switch tmux/vim/terminal colors from light to
   dark all at once
 - Any way to auto enable/disable "set paste" when pasting?
-- Useful error message when not passing in a has to Spyke.new
 
 ## Done
 
