@@ -66,3 +66,9 @@ let g:ruby_indent_access_modifier_style="indent"
 
 " Disable javascript snippets in html
 let g:snipMate.scope_aliases['html'] = ''
+
+" Use relative numbering
+set rnu
+
+" Use coffelint options if present
+let coffee_lint_options = '-f .coffeelint.json'
