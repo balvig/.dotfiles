@@ -22,3 +22,6 @@
 [submodule ".janus/vim-test"]
 	path = .janus/vim-test
 	url = git@github.com:janko-m/vim-test.git
+[submodule ".janus/vim-scheakur"]
+	path = .janus/vim-scheakur
+	url = https://github.com/scheakur/vim-scheakur.git
