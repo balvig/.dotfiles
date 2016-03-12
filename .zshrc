@@ -44,3 +44,6 @@ stty -ixon
 if [[ `uname` != 'Darwin' ]]; then
   export BROWSER=echo
 fi
+
+# Custom bins like git-suggest
+export PATH="$HOME/.dotfiles/bin:$PATH"
