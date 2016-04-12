@@ -21,3 +21,6 @@ then
 else
   echo "Dirty working directory, not resetting."
 fi
+
+# git br | grep "suggestion" | xargs -I% git push origin :%
+# git br | grep "suggestion" | xargs git branch -D
