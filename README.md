@@ -7,7 +7,7 @@
 
 ##### Nitrous Pro
 - Install [janus](https://github.com/carlhuda/janus)
-- Install libs `sudo apt-get install libmysqlclient-dev mongodb phantomjs`
+- Install libs `sudo apt-get install libmysqlclient-dev phantomjs`
 
 #### Symlink files
 
