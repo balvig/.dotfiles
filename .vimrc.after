@@ -1,6 +1,7 @@
 " Color scheme
 colorscheme jellybeans+
 let g:solarized_termcolors=256
+set colorcolumn=120
 
 " CtrlP configuration
 set wildignore+=*/tmp/*,*/spec/fixtures/cassettes/*,*/app/assets/images/*,*/public/*
