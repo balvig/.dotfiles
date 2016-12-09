@@ -17,12 +17,6 @@ antigen theme minimal
 # Tell antigen that you're done.
 antigen apply
 
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-if type "rbenv" > /dev/null; then
-  eval "$(rbenv init -)"
-fi
-
 # vim
 export EDITOR="vim"
 alias vi="vim"
@@ -49,5 +43,11 @@ fi
 export PATH="$HOME/.dotfiles/bin:$PATH"
 
 cop() {
-  rubocop "$1" -c .rubocop.yml --format html --out public/tmp/rubucop.html && open public/tmp/rubucop.html
+  rubocop "$1" -c .rubocop.yml --format html --out public/tmp/rubucop.html; open public/tmp/rubucop.html
 }
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+if type "rbenv" > /dev/null; then
+  eval "$(rbenv init -)"
+fi
