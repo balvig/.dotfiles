@@ -3,6 +3,11 @@ colorscheme jellybeans+
 let g:solarized_termcolors=256
 set colorcolumn=120
 
+" Transparent background
+hi Normal ctermbg=none
+hi NonText ctermbg=none
+hi LineNr ctermbg=none
+
 " CtrlP configuration
 set wildignore+=*/tmp/*,*/spec/fixtures/cassettes/*,*/app/assets/images/*,*/public/*
 
