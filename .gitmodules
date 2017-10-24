@@ -25,3 +25,6 @@
 [submodule ".janus/vim-scheakur"]
 	path = .janus/vim-scheakur
 	url = https://github.com/scheakur/vim-scheakur.git
+[submodule ".janus/vim-yaml-helper"]
+	path = .janus/vim-yaml-helper
+	url = https://github.com/lmeijvogel/vim-yaml-helper.git
