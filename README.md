@@ -13,7 +13,7 @@
 
 ```bash
 cd
-git clone git@github.com:balvig/.dotfiles.git
+git clone https://github.com/balvig/.dotfiles.git
 ln -sf .dotfiles/.vimrc.before .vimrc.before
 ln -sf .dotfiles/.vimrc.after .vimrc.after
 ln -sf .dotfiles/.janus .janus
