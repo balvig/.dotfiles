@@ -1,15 +1,15 @@
 [submodule ".janus/vim-powerline"]
 	path = .janus/vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
+	url = https://github.com/Lokaltog/vim-powerline.git
 [submodule ".janus/vimux"]
 	path = .janus/vimux
-	url = git://github.com/benmills/vimux.git
+	url = https://github.com/benmills/vimux.git
 [submodule ".janus/html5.vim"]
 	path = .janus/html5.vim
-	url = git@github.com:othree/html5.vim.git
+	url = https://github.com/othree/html5.vim.git
 [submodule ".janus/vim-yaml"]
 	path = .janus/vim-yaml
-	url = git@github.com:avakhov/vim-yaml.git
+	url = https://github.com/stephpy/vim-yaml.git
 [submodule ".janus/vim-solarized-powerline"]
 	path = .janus/vim-solarized-powerline
 	url = https://github.com/stephenmckinney/vim-solarized-powerline.git
@@ -21,7 +21,7 @@
 	url = https://github.com/zsh-users/antigen.git
 [submodule ".janus/vim-test"]
 	path = .janus/vim-test
-	url = git@github.com:janko-m/vim-test.git
+	url = https://github.com/janko-m/vim-test.git
 [submodule ".janus/vim-scheakur"]
 	path = .janus/vim-scheakur
 	url = https://github.com/scheakur/vim-scheakur.git
