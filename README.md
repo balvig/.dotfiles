@@ -5,9 +5,9 @@
 - Install [janus](https://github.com/carlhuda/janus)
 - Install tmux `brew install tmux`
 
-##### Nitrous Pro
+##### Linux
 - Install [janus](https://github.com/carlhuda/janus)
-- Install libs `sudo apt-get install libmysqlclient-dev mysql-server phantomjs`
+- Install libs `sudo apt-get install tmux zsh libmysqlclient-dev mysql-server phantomjs`
 
 #### Symlink files
 
