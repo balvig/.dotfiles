@@ -1,7 +1,6 @@
 #### Install dependencies
 
 ##### Mac
-- Install [iTerm2](http://www.iterm2.com)
 - Install [janus](https://github.com/carlhuda/janus)
 - Install tmux `brew install tmux`
 
