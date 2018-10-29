@@ -54,3 +54,5 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 if type "rbenv" > /dev/null; then
   eval "$(rbenv init -)"
 fi
+
+alias gfup="git commit -a --amend --no-edit && git push -f"
