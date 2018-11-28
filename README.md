@@ -1,7 +1,7 @@
 #### Install dependencies
 
 ##### Mac
-- Install tmux `brew install rbenv tmux zsh`
+- Install tmux `brew install rbenv tmux zsh vim`
 - Install [janus](https://github.com/carlhuda/janus)
 
 ##### Linux
