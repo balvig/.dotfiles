@@ -11,6 +11,12 @@ hi LineNr ctermbg=none
 " CtrlP configuration
 set wildignore+=*/tmp/*,*/spec/fixtures/cassettes/*,*/app/assets/images/*,*/public/*,*/log/*
 
+" Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
+if executable('ag')
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+
 " Strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
   " Preparation: save last search, and cursor position.
