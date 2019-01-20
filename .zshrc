@@ -55,4 +55,8 @@ if type "rbenv" > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
+# Amend and push
 alias gfup="git commit -a --amend --no-edit && git push -f"
+
+# Fuzzy search
+export FZF_DEFAULT_COMMAND="ag -l --nocolor -g ." fzf
