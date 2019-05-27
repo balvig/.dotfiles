@@ -46,7 +46,7 @@ fi
 export PATH="$HOME/.dotfiles/bin:$PATH"
 
 cop() {
-  rubocop "$1" -c .rubocop.yml --format html --out public/tmp/rubucop.html; open public/tmp/rubucop.html
+  rubocop "$1" -c .rubocop.yml --format html --out public/tmp/rubocop.html; open public/tmp/rubocop.html
 }
 
 # rbenv
