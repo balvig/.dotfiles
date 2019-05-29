@@ -88,3 +88,5 @@ set rnu
 
 " Use coffelint options if present
 let coffee_lint_options = '-f .coffeelint.json'
+
+let g:NERDSpaceDelims=1
