@@ -65,6 +65,9 @@ noremap <silent> <C-Q>          :q<CR>
 " Open notes
 noremap <silent> <leader>q          :10split ~/.dotfiles/notes.md <CR>
 
+" Open Kaizen Sketchpad
+noremap <silent> <leader>k          :10split ~/Documents/web-chapter/handbook/practices/kaizen-sketchpad.md <CR>
+
 " Open memo
 noremap <silent> <leader>m          :10split ~/.dotfiles/memo.md <CR>
 
