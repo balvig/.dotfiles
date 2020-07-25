@@ -31,3 +31,6 @@
 [submodule ".janus/vim-rhubarb"]
 	path = .janus/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
+[submodule ".janus/vim-table-mode"]
+	path = .janus/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode.git
