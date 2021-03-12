@@ -1,7 +1,7 @@
 #### Install dependencies
 
 ##### Mac
-- Install tmux `brew install rbenv tmux zsh vim the_silver_searcher fzf`
+- Install tmux `brew install rbenv tmux vim the_silver_searcher fzf`
 - Install [janus](https://github.com/carlhuda/janus)
 
 ##### Linux
