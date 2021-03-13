@@ -12,4 +12,8 @@ let g:Powerline_colorscheme='solarized256_dark'
 let g:Powerline_theme='short'
 
 " Fuzzy finding, install with brew install fzf
-set rtp+=/usr/local/opt/fzf
+if !empty(glob('/opt/homebrew/bin/fzf'))
+  set rtp+=/opt/homebrew/opt/fzf
+else
+  set rtp+=/usr/local/opt/fzf
+endif
