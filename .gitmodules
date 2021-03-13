@@ -34,3 +34,6 @@
 [submodule ".janus/vim-table-mode"]
 	path = .janus/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode.git
+[submodule ".janus/vim-prettier"]
+	path = .janus/vim-prettier
+	url = https://github.com/prettier/vim-prettier
