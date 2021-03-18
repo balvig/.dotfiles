@@ -5,6 +5,7 @@ antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle gitfast
+antigen bundle git
 antigen bundle heroku
 antigen bundle command-not-found
 
