@@ -37,3 +37,6 @@
 [submodule ".janus/vim-prettier"]
 	path = .janus/vim-prettier
 	url = https://github.com/prettier/vim-prettier
+[submodule ".janus/dracula"]
+	path = .janus/dracula
+	url = https://github.com/dracula/vim.git
