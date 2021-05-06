@@ -26,8 +26,14 @@
   untracked = cyan
 [core]
   excludesfile = ~/.gitignore_global
+[diff]
+  colorMoved = zebra
+[fetch]
+  prune = true
 [push]
   default = current
+[pull]
+  rebase = true
 [credential]
   helper = osxkeychain
 [filter "media"]
