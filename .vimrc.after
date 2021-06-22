@@ -1,8 +1,8 @@
 " Color scheme
-colorscheme jellybeans+
+let g:dracula_italic = 0
+colorscheme dracula
+" colorscheme jellybeans+
 let g:solarized_termcolors=256
-" let g:dracula_inverse = 0
-let g:dracula_colorterm = 0
 set colorcolumn=120
 
 " Transparent background
