@@ -61,3 +61,13 @@ alias gfup="git commit -a --amend --no-edit && git push -f"
 
 # Fuzzy search
 export FZF_DEFAULT_COMMAND="ag -l --nocolor -g ." fzf
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+if type "rvm" > /dev/null; then
+  export PATH="$PATH:$HOME/.rvm/bin"
+fi
