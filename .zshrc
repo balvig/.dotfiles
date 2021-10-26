@@ -33,7 +33,7 @@ DISABLE_AUTO_TITLE=true
 export PATH="/usr/local/bin:$PATH"
 
 # Postgressapp
-export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # Pass through ctrl-key
 stty -ixon
