@@ -23,7 +23,10 @@ antigen apply
 
 # vim
 export EDITOR="vim"
-alias vi="vim"
+
+# use homebrew version of vim
+alias vi=/opt/homebrew/bin/vim
+alias vim=/opt/homebrew/bin/vim
 
 # tmux
 alias tmux="TERM=screen-256color-bce tmux -u"
