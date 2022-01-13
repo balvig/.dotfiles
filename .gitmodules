@@ -40,3 +40,6 @@
 [submodule ".janus/dracula"]
 	path = .janus/dracula
 	url = https://github.com/dracula/vim.git
+[submodule ".janus/vim-jsx-typescript"]
+	path = .janus/vim-jsx-typescript
+	url = https://github.com/peitalin/vim-jsx-typescript.git
