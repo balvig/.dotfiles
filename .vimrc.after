@@ -99,8 +99,3 @@ let coffee_lint_options = '-f .coffeelint.json'
 
 " Add space before comments
 let g:NERDSpaceDelims=1
-
-" Run Prettier on save if a config file is present
-let g:prettier#autoformat_require_pragma = 0
-let g:prettier#autoformat_config_present = 1
-let g:prettier#autoformat_config_files = [".prettierrc.json"]
