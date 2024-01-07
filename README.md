@@ -15,6 +15,7 @@ cd
 git clone https://github.com/balvig/.dotfiles.git
 ln -sf .dotfiles/.vimrc.before .vimrc.before
 ln -sf .dotfiles/.vimrc.after .vimrc.after
+ln -sf .dotfiles/.ideavimrc .ideavimrc
 ln -sf .dotfiles/.janus .janus
 ln -sf ~/.dotfiles/jellybeans+.vim ~/.vim/janus/vim/colors/sampler-pack/colors/jellybeans+.vim
 ln -sf .dotfiles/.zshrc .zshrc
