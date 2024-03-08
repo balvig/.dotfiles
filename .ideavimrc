@@ -1,3 +1,13 @@
 set relativenumber number
 set surround
 set easymotion
+
+" Plugins
+Plug 'preservim/nerdtree'
+nmap <leader>n :NERDTreeToggle<CR>
+
+" RubyMine actions
+nmap <leader>R <action>(RunClass)
+nmap <leader>r <action>(Rerun)
+nmap <leader>h <action>(PreviousTab)
+nmap <leader>f <action>(FindInPath)
