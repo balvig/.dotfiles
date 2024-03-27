@@ -36,6 +36,7 @@
   rebase = true
 [credential]
   helper = osxkeychain
+  helper = /usr/local/share/gcm-core/git-credential-manager-core
 [filter "media"]
   required = true
   clean = git media clean %f
@@ -47,5 +48,9 @@
   process = git-lfs filter-process
 [init]
   defaultBranch = main
+[credential "https://dev.azure.com"]
+  useHttpPath = true
 [blame]
 	ignoreRevsFile = .git-blame-ignore-revs
+[merge]
+  conflictstyle = zdiff3
