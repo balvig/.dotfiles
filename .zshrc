@@ -86,3 +86,7 @@ function jic {
 
   eval $cmd
 }
+
+function lla {
+  cd "$(llama "$@")"
+}
