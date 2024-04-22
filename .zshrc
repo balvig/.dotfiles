@@ -90,3 +90,26 @@ function jic {
 function lla {
   cd "$(llama "$@")"
 }
+
+# Short cut to unlock terraform
+function pm-tf-unlock() {
+  if [ "$1" -a "$2" ]; then
+    key=$(echo $1 | sed s/:$//)
+
+    aws dynamodb delete-item \
+      --table-name terraform_coordinator \
+      --key "{\"LockID\": {\"S\": \"$key\"}}" \
+      --condition-expression "contains(Info, :info)" \
+      --expression-attribute-values "{\":info\": {\"S\": \"$2\"}}" \
+      --region us-east-1 \
+      --profile ci-root
+  else
+    aws dynamodb scan \
+      --max-items 500 \
+      --table-name terraform_coordinator \
+      --filter-expression "attribute_exists(Info)" \
+      --region us-east-1 \
+      --profile ci-root \
+      | jq -r '.Items | reduce .[] as $i ({}; . * {($i.LockID.S): ($i.Info.S | fromjson | .Created)}) | to_entries |  map(.key + ": " + .value) | join("\n")'
+  fi
+}
