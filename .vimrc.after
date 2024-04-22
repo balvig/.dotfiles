@@ -42,9 +42,10 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 " custom status line
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-" Syntax highlighting for deface/jbuilder files
+" Syntax highlighting for deface/jbuilder/wicked_pdf files
 au BufNewFile,BufRead *.erb.deface set filetype=eruby
 au BufNewFile,BufRead *.json.jbuilder set filetype=ruby
+au BufNewFile,BufRead *.pdf.erb set filetype=eruby
 
 " Set up vim-test
 nmap <silent> <leader>r :TestFile<CR>
