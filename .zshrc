@@ -74,3 +74,15 @@ export NVM_DIR="$HOME/.nvm"
 if type "rvm" > /dev/null; then
   export PATH="$PATH:$HOME/.rvm/bin"
 fi
+
+# Shortcut to creating a Jira ticket for myself
+function jic {
+  local cmd="jira issue create --assignee $(jira me) -tTask"
+
+  if [ -n "$1" ]
+  then
+    cmd="$cmd -s\"$1\" --no-input"
+  fi
+
+  eval $cmd
+}
