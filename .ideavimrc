@@ -2,6 +2,10 @@ set relativenumber number
 set surround
 set easymotion
 
+" Fix back/forward behavior
+nmap <C-o> <action>(Back)
+nmap <C-i> <action>(Forward)
+
 " Plugins
 Plug 'preservim/nerdtree'
 nmap <leader>n :NERDTreeToggle<CR>
