@@ -1,6 +1,7 @@
 theme "tokyo-night"
-default_layout "default"
+default_layout "compact"
 
 keybinds {
   unbind "Ctrl b" // Conflict with VIM
+  unbind "Ctrl q" // Muscle memory
 }
