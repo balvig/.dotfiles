@@ -1,0 +1,6 @@
+theme "tokyo-night"
+default_layout "default"
+
+keybinds {
+  unbind "Ctrl b" // Conflict with VIM
+}
