@@ -18,6 +18,7 @@ ln -sf .dotfiles/.gitignore_global .gitignore_global
 ln -sf .dotfiles/.gitconfig .gitconfig
 ln -sf ~/.dotfiles/nvim ~/.config/nvim
 ln -sf ~/.dotfiles/zellij ~/.config/zellij
+ln -sf ~/.dotfiles/alacritty/ ~/.config/alacritty
 ```
 
 #### Set up local gitconfig
