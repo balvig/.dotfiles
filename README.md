@@ -1,7 +1,7 @@
 #### Install dependencies
 
 ##### Mac
-- Install tmux `brew install rbenv tmux neovim ripgrep fd jesseduffield/lazygit/lazygit zellij`
+- Install tmux `brew install rbenv tmux neovim ripgrep gnu-sed fd jesseduffield/lazygit/lazygit zellij`
 - Install [LazyVim](https://www.lazyvim.org)
 
 #### Symlink files
