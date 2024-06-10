@@ -4,4 +4,5 @@ default_layout "compact"
 keybinds {
   unbind "Ctrl b" // Conflict with VIM
   unbind "Ctrl q" // Muscle memory
+  unbind "Ctrl o" // Muscle memory
 }
