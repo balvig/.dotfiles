@@ -22,11 +22,11 @@ antigen theme minimal
 antigen apply
 
 # vim
-export EDITOR="vim"
+export EDITOR="nvim"
 
-# use homebrew version of vim
-alias vi=/opt/homebrew/bin/vim
-alias vim=/opt/homebrew/bin/vim
+# use Neovim
+alias vi=/usr/local/bin/nvim
+alias vim=/usr/local/bin/nvim
 
 # tmux
 alias tmux="TERM=screen-256color-bce tmux -u"
