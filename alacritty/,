@@ -1,0 +1,7 @@
+[font]
+normal = { family = "SFMono Nerd Font" }
+bold = { family = "SFMono Nerd Font" }
+italic = { family = "SFMono Nerd Font" }
+
+[window]
+decorations = "None"
