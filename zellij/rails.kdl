@@ -1,0 +1,26 @@
+layout {
+  default_tab_template {
+    pane size=1 borderless=true {
+      plugin location="zellij:tab-bar"
+    }
+    children
+  }
+
+  tab name="Neovim" split_direction="horizontal" {
+    pane command="nvim"
+  }
+
+  tab name="Terminal" split_direction="vertical" 
+
+  tab name="Server" split_direction="vertical" focus=true {
+    pane command="rails" {
+      args "s"
+    }
+  }
+
+  tab name="GitHub" {
+    pane command="gh" {
+      args "dash"
+    }
+  }
+}
