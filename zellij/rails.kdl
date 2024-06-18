@@ -6,13 +6,13 @@ layout {
     children
   }
 
-  tab name="Neovim" split_direction="horizontal" {
+  tab name="Neovim" split_direction="vertical" focus=true {
     pane command="nvim"
   }
 
-  tab name="Terminal" split_direction="vertical" 
+  tab name="Terminal" split_direction="horizontal" 
 
-  tab name="Server" split_direction="vertical" focus=true {
+  tab name="Server" split_direction="horizontal" {
     pane command="rails" {
       args "s"
     }
