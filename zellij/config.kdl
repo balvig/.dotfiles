@@ -13,4 +13,8 @@ keybinds {
   shared_except "locked" {
     unbind "Ctrl q"
   }
+
+  shared_except "session" "locked" {
+    bind "Ctrl z" { SwitchToMode "Session"; }
+  }
 }
