@@ -1,7 +1,7 @@
 #### Install dependencies
 
 ##### Mac
-- Install tmux `brew install rbenv tmux neovim ripgrep gnu-sed fd jesseduffield/lazygit/lazygit zellij`
+- Install tmux `brew install rbenv neovim ripgrep gnu-sed fd jesseduffield/lazygit/lazygit zellij`
 - Install [LazyVim](https://www.lazyvim.org)
 
 #### Symlink files
@@ -13,12 +13,12 @@ ln -sf .dotfiles/.vimrc.before .vimrc.before
 ln -sf .dotfiles/.vimrc.after .vimrc.after
 ln -sf .dotfiles/.ideavimrc .ideavimrc
 ln -sf .dotfiles/.zshrc .zshrc
-ln -sf .dotfiles/.tmux.conf .tmux.conf
 ln -sf .dotfiles/.gitignore_global .gitignore_global
 ln -sf .dotfiles/.gitconfig .gitconfig
 ln -sf ~/.dotfiles/nvim ~/.config/nvim
 ln -sf ~/.dotfiles/zellij ~/.config/zellij
 ln -sf ~/.dotfiles/alacritty/ ~/.config/alacritty
+ln -sf ~/.dotfiles/gh-dash/ ~/.config/gh-dash
 ```
 
 #### Set up local gitconfig
