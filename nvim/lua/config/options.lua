@@ -4,3 +4,6 @@
 
 -- Disable LazyVim auto format
 vim.g.autoformat = false
+
+-- Set max line length
+vim.opt.colorcolumn = "120"
