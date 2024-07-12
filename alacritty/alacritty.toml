@@ -7,3 +7,23 @@ option_as_alt = "Both"
 normal.family = "SFMono Nerd Font"
 size = 12
 
+# Map Cmd 1-4 to tabs, see zellij config
+[[keyboard.bindings]]
+key = "1"
+mods = "Command"
+chars = "\uE000" # 
+
+[[keyboard.bindings]]
+key = "2"
+mods = "Command"
+chars = "\uE001" # 
+
+[[keyboard.bindings]]
+key = "3"
+mods = "Command"
+chars = "\uE002" # 
+
+[[keyboard.bindings]]
+key = "4"
+mods = "Command"
+chars = "\uE003" # 

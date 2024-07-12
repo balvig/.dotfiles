@@ -8,6 +8,12 @@ keybinds {
   normal {
     unbind "Ctrl o" // Conflict with VIM
     unbind "Ctrl h" // Don't need "move" mode, I think
+
+    // See alacritty config
+    bind "" { GoToTab 1; SwitchToMode "Normal"; }
+    bind "" { GoToTab 2; SwitchToMode "Normal"; }
+    bind "" { GoToTab 3; SwitchToMode "Normal"; }
+    bind "" { GoToTab 4; SwitchToMode "Normal"; }
   }
 
   shared_except "locked" {
@@ -15,6 +21,6 @@ keybinds {
   }
 
   shared_except "session" "locked" {
-    bind "Ctrl z" { SwitchToMode "Session"; }
+    bind "Ctrl a" { SwitchToMode "Session"; }
   }
 }
