@@ -1,7 +1,7 @@
 #### Install dependencies
 
 ##### Mac
-- `brew install rbenv neovim ripgrep gnu-sed fd jesseduffield/lazygit/lazygit zellij antigen diff-so-fancy`
+- `brew install rbenv neovim ripgrep gnu-sed fd jesseduffield/lazygit/lazygit zellij antigen diff-so-fancy caarlos0/tap/svu`
 - Install [NerdFont](https://github.com/epk/SF-Mono-Nerd-Font)
 
 #### Symlink files
