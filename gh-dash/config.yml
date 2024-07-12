@@ -1,2 +1,4 @@
 defaults:
   refetchIntervalMinutes: 10
+repoPaths: # configure where to locate repos when checking out PRs
+  :owner/:repo: ~/Documents/:repo
