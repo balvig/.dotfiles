@@ -12,9 +12,6 @@ antigen bundle command-not-found
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Easy cleanup of git branches
-antigen bundle diazod/git-prune
-
 # Load the theme.
 antigen theme minimal
 
