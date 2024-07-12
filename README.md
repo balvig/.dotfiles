@@ -1,7 +1,7 @@
 #### Install dependencies
 
 ##### Mac
-- `brew install rbenv neovim ripgrep gnu-sed fd jesseduffield/lazygit/lazygit zellij antigen diff-so-fancy caarlos0/tap/svu`
+- Install [Homebrew](https://brew.sh/)
 - Install [NerdFont](https://github.com/epk/SF-Mono-Nerd-Font)
 
 #### Symlink files
@@ -19,6 +19,8 @@ ln -sf ~/.dotfiles/nvim ~/.config/nvim
 ln -sf ~/.dotfiles/zellij ~/.config/zellij
 ln -sf ~/.dotfiles/alacritty ~/.config/alacritty
 ln -sf ~/.dotfiles/gh-dash ~/.config/gh-dash
+cd ~/.dotfiles/
+brew bundle
 ```
 
 #### Set up local gitconfig
