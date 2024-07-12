@@ -26,6 +26,7 @@
   untracked = cyan
 [core]
   excludesfile = ~/.gitignore_global
+	pager = diff-so-fancy | less --tabs=4 -RF
 [diff]
   colorMoved = zebra
 [fetch]
@@ -54,3 +55,5 @@
 	ignoreRevsFile = .git-blame-ignore-revs
 [merge]
   conflictstyle = zdiff3
+[interactive]
+	diffFilter = diff-so-fancy --patch
