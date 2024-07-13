@@ -1,6 +1,9 @@
 [window]
 decorations = "None"
 option_as_alt = "Both"
+opacity = 0.95
+padding.x = 5
+padding.y = 5
 
 
 [font]
