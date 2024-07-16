@@ -19,8 +19,14 @@ ln -sf ~/.dotfiles/nvim ~/.config/nvim
 ln -sf ~/.dotfiles/zellij ~/.config/zellij
 ln -sf ~/.dotfiles/alacritty ~/.config/alacritty
 ln -sf ~/.dotfiles/gh-dash ~/.config/gh-dash
+```
+
+#### Install Homebrew apps and swap out Alacritty icon
+
+```bash
 cd ~/.dotfiles/
 brew bundle
+./update-alacritty-icon.sh
 ```
 
 #### Set up local gitconfig
