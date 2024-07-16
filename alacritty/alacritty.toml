@@ -4,7 +4,6 @@ option_as_alt = "Both"
 padding.x = 5
 padding.y = 5
 
-
 [font]
 normal.family = "SFMono Nerd Font"
 size = 12
@@ -29,3 +28,7 @@ chars = "\uE002" # 
 key = "4"
 mods = "Command"
 chars = "\uE003" # 
+
+# Copy selected text to the clipboard
+[selection]
+save_to_clipboard = true
