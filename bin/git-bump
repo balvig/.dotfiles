@@ -1,0 +1,39 @@
+#!/bin/sh
+
+# Prompt the user for input with a default value of "patch"
+read -p "Enter version type (major, minor, patch) [patch]: " version
+
+# Set the default if no input is provided
+version=${version:-patch}
+
+# Output the chosen version
+echo "You selected: $version"
+
+# Get the next version number using svu
+next_version=$(svu "$version")
+
+# Check if svu command was successful
+if [ $? -ne 0 ]; then
+  echo "Failed to get the next version number using svu."
+  exit 1
+fi
+
+# Create a new git tag with the next version number
+git tag "$next_version"
+
+# Check if git tag command was successful
+if [ $? -ne 0 ]; then
+  echo "Failed to create the git tag $next_version."
+  exit 1
+fi
+
+# Push the new tag to origin
+git push origin "$next_version"
+
+# Check if git push command was successful
+if [ $? -ne 0 ]; then
+  echo "Failed to push the git tag $next_version to origin."
+  exit 1
+fi
+
+echo "Successfully tagged and pushed version $next_version"

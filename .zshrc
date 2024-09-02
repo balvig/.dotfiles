@@ -25,9 +25,6 @@ export EDITOR="nvim"
 alias vi=/usr/local/bin/nvim
 alias vim=/usr/local/bin/nvim
 
-# bump version
-alias gtn='git tag $(svu next)'
-
 # tmux
 alias tmux="TERM=screen-256color-bce tmux -u"
 DISABLE_AUTO_TITLE=true
