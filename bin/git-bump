@@ -1,13 +1,32 @@
 #!/bin/sh
 
-# Prompt the user for input with a default value of "patch"
-read -p "Enter version type (major, minor, patch) [patch]: " version
+# Check if we are on the main branch
+current_branch=$(git symbolic-ref --short HEAD)
+if [ "$current_branch" != "main" ]; then
+  echo "You are not on the main branch. Please switch to the main branch."
+  exit 1
+fi
+
+# Check if the local branch is up to date with origin
+git fetch origin main
+if [ $(git rev-parse HEAD) != $(git rev-parse @{u}) ]; then
+  echo "The local main branch is not up to date with origin. Please pull the latest changes."
+  exit 1
+fi
+
+# Check if version argument is provided
+if [ $# -eq 1 ]; then
+  version=$1
+else
+  # Prompt the user for input with a default value of "patch"
+  read -p "Enter version type (major, minor, patch) [patch]: " version
+fi
 
 # Set the default if no input is provided
 version=${version:-patch}
 
 # Output the chosen version
-echo "You selected: $version"
+echo "Bumping: $version"
 
 # Get the next version number using svu
 next_version=$(svu "$version")
@@ -36,4 +55,14 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-echo "Successfully tagged and pushed version $next_version"
+echo "Successfully tagged and pushed version $next_version. Creating release..."
+
+# Create a GitHub release
+output=$(gh release create "$next_version" -t "$next_version" --generate-notes 2>&1)
+exit_code=$?
+
+if [ $exit_code -eq 0 ]; then
+  echo "Successfully created release: $output."
+else
+  echo "Failed to create release: $output."
+fi
