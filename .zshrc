@@ -1,3 +1,6 @@
+# Brew
+export PATH="/opt/homebrew/bin:$PATH"
+
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 # Load oh-my-zsh's library.
@@ -22,15 +25,12 @@ antigen apply
 export EDITOR="nvim"
 
 # use Neovim
-alias vi=/usr/local/bin/nvim
-alias vim=/usr/local/bin/nvim
+alias vi=/opt/homebrew/bin/nvim
+alias vim=/opt/homebrew/bin/nvim
 
 # tmux
 alias tmux="TERM=screen-256color-bce tmux -u"
 DISABLE_AUTO_TITLE=true
-
-# Brew
-export PATH="/usr/local/bin:$PATH"
 
 # Postgressapp
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
@@ -86,27 +86,4 @@ function jic {
 
 function lla {
   cd "$(llama "$@")"
-}
-
-# Short cut to unlock terraform
-function pm-tf-unlock() {
-  if [ "$1" -a "$2" ]; then
-    key=$(echo $1 | sed s/:$//)
-
-    aws dynamodb delete-item \
-      --table-name terraform_coordinator \
-      --key "{\"LockID\": {\"S\": \"$key\"}}" \
-      --condition-expression "contains(Info, :info)" \
-      --expression-attribute-values "{\":info\": {\"S\": \"$2\"}}" \
-      --region us-east-1 \
-      --profile ci-root
-  else
-    aws dynamodb scan \
-      --max-items 500 \
-      --table-name terraform_coordinator \
-      --filter-expression "attribute_exists(Info)" \
-      --region us-east-1 \
-      --profile ci-root \
-      | jq -r '.Items | reduce .[] as $i ({}; . * {($i.LockID.S): ($i.Info.S | fromjson | .Created)}) | to_entries |  map(.key + ": " + .value) | join("\n")'
-  fi
 }
