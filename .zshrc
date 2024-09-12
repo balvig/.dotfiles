@@ -87,3 +87,6 @@ function jic {
 function lla {
   cd "$(llama "$@")"
 }
+
+# https://github.com/ajeetdsouza/zoxide
+eval "$(zoxide init zsh)"
