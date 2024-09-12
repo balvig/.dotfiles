@@ -17,6 +17,7 @@ brew "zellij"
 brew "antigen"
 brew "diff-so-fancy"
 brew "caarlos0/tap/svu"
+brew "mcfly"
 brew "zoxide"
 
 # App stuff

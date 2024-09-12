@@ -90,3 +90,6 @@ function lla {
 
 # https://github.com/ajeetdsouza/zoxide
 eval "$(zoxide init zsh)"
+
+# https://github.com/cantino/mcfly
+eval "$(mcfly init zsh)"
