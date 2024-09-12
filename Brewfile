@@ -1,3 +1,8 @@
+tap "jesseduffield/lazygit"
+tap "jesseduffield/lazydocker"
+
+# Comand line tools
+brew "act"
 brew "rbenv"
 brew "neovim"
 brew "gh"
@@ -7,6 +12,7 @@ brew "fd"
 brew "fzf"
 brew "the_silver_searcher"
 brew "jesseduffield/lazygit/lazygit"
+brew "jesseduffield/lazydocker/lazydocker"
 brew "zellij"
 brew "antigen"
 brew "diff-so-fancy"
