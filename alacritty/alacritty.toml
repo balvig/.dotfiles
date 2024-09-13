@@ -8,7 +8,7 @@ padding.y = 8
 normal.family = "SFMono Nerd Font"
 size = 12
 
-# Map Cmd 1-4 to tabs, see zellij config
+# Map Cmd 1-8 to tabs, see zellij config
 [[keyboard.bindings]]
 key = "1"
 mods = "Command"
@@ -28,6 +28,26 @@ chars = "\uE002" # 
 key = "4"
 mods = "Command"
 chars = "\uE003" # 
+
+[[keyboard.bindings]]
+key = "5"
+mods = "Command"
+chars = "\uE004" # 
+
+[[keyboard.bindings]]
+key = "6"
+mods = "Command"
+chars = "\uE005" # 
+
+[[keyboard.bindings]]
+key = "7"
+mods = "Command"
+chars = "\uE006" # 
+
+[[keyboard.bindings]]
+key = "8"
+mods = "Command"
+chars = "\uE007" # 
 
 # Copy selected text to the clipboard
 [selection]

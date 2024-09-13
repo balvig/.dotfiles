@@ -14,6 +14,10 @@ keybinds {
     bind "" { GoToTab 2; SwitchToMode "Normal"; }
     bind "" { GoToTab 3; SwitchToMode "Normal"; }
     bind "" { GoToTab 4; SwitchToMode "Normal"; }
+    bind "" { GoToTab 5; SwitchToMode "Normal"; }
+    bind "" { GoToTab 6; SwitchToMode "Normal"; }
+    bind "" { GoToTab 7; SwitchToMode "Normal"; }
+    bind "" { GoToTab 8; SwitchToMode "Normal"; }
   }
 
   shared_except "locked" {
