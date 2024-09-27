@@ -17,10 +17,4 @@ layout {
       args "s"
     }
   }
-
-  tab name="GitHub" {
-    pane command="gh" {
-      args "dash"
-    }
-  }
 }

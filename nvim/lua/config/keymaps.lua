@@ -7,3 +7,7 @@ local neotest = require("neotest")
 vim.keymap.set("n", "<leader>ta", function()
   neotest.run.attach()
 end, { desc = "Attach To Test" })
+
+vim.keymap.set("n", "<leader>ga", function()
+  LazyVim.terminal.open({ "gh", "dash" }, { esc_esc = false, ctrl_hjkl = false })
+end, { desc = "GH Dash (cwd)" })
