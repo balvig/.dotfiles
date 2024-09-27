@@ -1,5 +1,4 @@
 theme "tokyo-night"
-default_layout "compact"
 pane_frames false
 
 keybinds {
