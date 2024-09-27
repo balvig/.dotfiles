@@ -2,17 +2,19 @@ tap "jesseduffield/lazygit"
 tap "jesseduffield/lazydocker"
 tap "heroku/brew"
 
+# Lazyvim dependencies
+brew "fd" # find files
+brew "ripgrep" # fast grep
+brew "gnu-sed" #  search and replace
+
 # Comand line tools
 brew "act" # Run GitHub Actions locally
 brew "asdf" # Version manager
 brew "rbenv" # Ruby version
 brew "neovim" # Text editor
 brew "gh" # GitHub CLI
-brew "ripgrep" # ?
-brew "gnu-sed" # ?
-brew "fd" # ?
 brew "fzf" # Search tool
-brew "the_silver_searcher" # ?
+brew "the_silver_searcher" # Faster fzf
 brew "jesseduffield/lazygit/lazygit" # Git GUI
 brew "jesseduffield/lazydocker/lazydocker" # Docker GUI
 brew "zellij" # Terminal multiplexer

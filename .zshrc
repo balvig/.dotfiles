@@ -7,10 +7,9 @@ source $(brew --prefix)/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle gitfast
-antigen bundle git
-antigen bundle heroku
-antigen bundle command-not-found
+antigen bundle gitfast # faster git autocomplete
+antigen bundle git # git aliases
+antigen bundle command-not-found # suggest command if not found
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -42,7 +41,8 @@ fi
 alias gfup="git commit -a --amend --no-edit && git push -f"
 
 # Fuzzy search
-export FZF_DEFAULT_COMMAND="ag -l --nocolor -g ." fzf
+export FZF_DEFAULT_COMMAND="ag -l --nocolor -g ." fzf # use the silver searcher for fzf
+source <(fzf --zsh)
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
