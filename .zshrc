@@ -20,6 +20,9 @@ antigen theme minimal
 # Tell antigen that you're done.
 antigen apply
 
+# Allow gem install to find pg_config
+export PKG_CONFIG_PATH="/opt/homebrew/opt/libpq/lib/pkgconfig"
+
 # use Neovim
 export EDITOR="nvim"
 alias vi=/opt/homebrew/bin/nvim
