@@ -29,11 +29,6 @@ alias vim=/opt/homebrew/bin/nvim
 # Pass through ctrl-key
 stty -ixon
 
-# Just output URL when no browser is available for hub etc
-if [[ `uname` != 'Darwin' ]]; then
-  export BROWSER=echo
-fi
-
 # Custom bins like git-suggest
 export PATH="$HOME/.dotfiles/bin:$PATH"
 
