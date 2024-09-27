@@ -93,3 +93,6 @@ eval "$(zoxide init zsh)"
 
 # https://github.com/cantino/mcfly
 eval "$(mcfly init zsh)"
+
+# https://asdf-vm.com/guide/getting-started.html
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
