@@ -21,19 +21,10 @@ antigen theme minimal
 # Tell antigen that you're done.
 antigen apply
 
-# vim
-export EDITOR="nvim"
-
 # use Neovim
+export EDITOR="nvim"
 alias vi=/opt/homebrew/bin/nvim
 alias vim=/opt/homebrew/bin/nvim
-
-# tmux
-alias tmux="TERM=screen-256color-bce tmux -u"
-DISABLE_AUTO_TITLE=true
-
-# Postgressapp
-export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # Pass through ctrl-key
 stty -ixon
@@ -45,10 +36,6 @@ fi
 
 # Custom bins like git-suggest
 export PATH="$HOME/.dotfiles/bin:$PATH"
-
-cop() {
-  rubocop "$1" -c .rubocop.yml --format html --out public/tmp/rubocop.html; open public/tmp/rubocop.html
-}
 
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -71,22 +58,6 @@ export NVM_DIR="$HOME/.nvm"
 if type "rvm" > /dev/null; then
   export PATH="$PATH:$HOME/.rvm/bin"
 fi
-
-# Shortcut to creating a Jira ticket for myself
-function jic {
-  local cmd="jira issue create --assignee $(jira me) -tTask"
-
-  if [ -n "$1" ]
-  then
-    cmd="$cmd -s\"$1\" --no-input"
-  fi
-
-  eval $cmd
-}
-
-function lla {
-  cd "$(llama "$@")"
-}
 
 # https://github.com/ajeetdsouza/zoxide
 eval "$(zoxide init zsh)"
