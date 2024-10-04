@@ -1,5 +1,6 @@
 theme "tokyo-night"
 pane_frames false
+default_layout "top-bar"
 
 keybinds {
   unbind "Ctrl b" // Conflict with VIM
