@@ -3,10 +3,9 @@ pane_frames false
 default_layout "top-bar"
 
 keybinds {
-  unbind "Ctrl b" // Conflict with VIM
-
   normal {
     unbind "Ctrl o" // Conflict with VIM
+    unbind "Ctrl b" // Conflict with VIM
     unbind "Ctrl h" // Don't need "move" mode, I think
 
     // See alacritty config
