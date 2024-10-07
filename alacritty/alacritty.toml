@@ -9,7 +9,8 @@ opacity = 0.9
 transparent_background_colors = true
 
 [font]
-normal.family = "SFMono Nerd Font"
+normal.family = "FiraCode Nerd Font"
+normal.style = "Regular"
 size = 12
 
 # Map Cmd 1-8 to tabs, see zellij config

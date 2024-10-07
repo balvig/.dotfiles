@@ -2,7 +2,6 @@
 
 ##### Mac
 - Install [Homebrew](https://brew.sh/)
-- Install [NerdFont](https://github.com/epk/SF-Mono-Nerd-Font)
 
 #### Symlink files
 
