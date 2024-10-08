@@ -8,9 +8,6 @@
 ```bash
 cd
 git clone https://github.com/balvig/.dotfiles.git
-ln -sf .dotfiles/.vimrc.before .vimrc.before
-ln -sf .dotfiles/.vimrc.after .vimrc.after
-ln -sf .dotfiles/.ideavimrc .ideavimrc
 ln -sf .dotfiles/.zshrc .zshrc
 ln -sf .dotfiles/.gitignore_global .gitignore_global
 ln -sf .dotfiles/.gitconfig .gitconfig
