@@ -29,7 +29,7 @@ brew "heroku" # Heroku CLI
 brew "yarn" # JS package
 brew "imagemagick" # Image manipulation
 brew "ffmpeg" # Video manipulation
-brew "postgresql@15" # Database
+brew "postgresql" # Database
 brew "libpq" # Postgres lib for gem compilation
 
 # Nerd fonts
