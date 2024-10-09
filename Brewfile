@@ -10,7 +10,6 @@ brew "gnu-sed" #  search and replace
 # Comand line tools
 brew "act" # Run GitHub Actions locally
 brew "asdf" # Version manager
-brew "rbenv" # Ruby version
 brew "neovim" # Text editor
 brew "gh" # GitHub CLI
 brew "fzf" # Search tool
@@ -32,6 +31,7 @@ brew "imagemagick" # Image manipulation
 brew "ffmpeg" # Video manipulation
 brew "postgresql" # Database
 brew "libpq" # Postgres lib for gem compilation
+brew "openssl@1.1" # OpenSSL for gem compilation
 
 # Nerd fonts
 cask "font-jetbrains-mono-nerd-font"
