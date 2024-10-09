@@ -9,7 +9,7 @@ opacity = 0.9
 transparent_background_colors = true
 
 [font]
-normal.family = "FiraCode Nerd Font"
+normal.family = "JetBrainsMono Nerd Font"
 normal.style = "Regular"
 size = 12
 

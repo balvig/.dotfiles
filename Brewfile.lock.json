@@ -972,6 +972,55 @@
             }
           }
         }
+      },
+      "envchain": {
+        "version": "1.1.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:89bc49ffc1341fb5f06e5510be523ddb5d3a7270ad02a53382505f2cb817675b",
+              "sha256": "89bc49ffc1341fb5f06e5510be523ddb5d3a7270ad02a53382505f2cb817675b"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:08f5b3cde3d1896f4fca18a13095967ea1d127173e5ee23e780fcc12fd6baf9f",
+              "sha256": "08f5b3cde3d1896f4fca18a13095967ea1d127173e5ee23e780fcc12fd6baf9f"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:24af1fb8d859658e4cfbc05b3e9fa27dda8e2279c0ea837c690bdd12923687b7",
+              "sha256": "24af1fb8d859658e4cfbc05b3e9fa27dda8e2279c0ea837c690bdd12923687b7"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:8cc5dc5ec2f1fac17348730ba22508f9ee2bce670312987c2637257f7e852412",
+              "sha256": "8cc5dc5ec2f1fac17348730ba22508f9ee2bce670312987c2637257f7e852412"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:b9ac4877ddba27b20d986e8ade239c4fc12e9b85968d2f07106cbd3f1504a8ec",
+              "sha256": "b9ac4877ddba27b20d986e8ade239c4fc12e9b85968d2f07106cbd3f1504a8ec"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:a3f83b8b0b6ea0236e3474a1e1a2a7d5c931be0bcd95d8f29f5d3b15ffd4e387",
+              "sha256": "a3f83b8b0b6ea0236e3474a1e1a2a7d5c931be0bcd95d8f29f5d3b15ffd4e387"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:1e9696dfc24f702c88cdb3f02fa4d462524d8b3e95cf4eaafd8c315122da9179",
+              "sha256": "1e9696dfc24f702c88cdb3f02fa4d462524d8b3e95cf4eaafd8c315122da9179"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/envchain/blobs/sha256:9a8253f12f7d1ec624b755a99a0906b501b6dfb4d299ddb552c8a35a397293cc",
+              "sha256": "9a8253f12f7d1ec624b755a99a0906b501b6dfb4d299ddb552c8a35a397293cc"
+            }
+          }
+        }
       }
     },
     "tap": {
@@ -990,6 +1039,18 @@
         "version": "3.2.1",
         "options": {
           "full_name": "font-fira-code-nerd-font"
+        }
+      },
+      "font-sauce-code-pro-nerd-font": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "font-sauce-code-pro-nerd-font"
+        }
+      },
+      "font-jetbrains-mono-nerd-font": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "font-jetbrains-mono-nerd-font"
         }
       }
     }

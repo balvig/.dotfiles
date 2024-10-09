@@ -24,6 +24,7 @@ brew "caarlos0/tap/svu" # Semantic Versioning util
 brew "mcfly" # Better history
 brew "zoxide" # Better cd
 brew "heroku" # Heroku CLI
+brew "envchain" # Secure env vars
 
 # App stuff
 brew "yarn" # JS package
@@ -33,4 +34,4 @@ brew "postgresql" # Database
 brew "libpq" # Postgres lib for gem compilation
 
 # Nerd fonts
-cask "font-fira-code-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
