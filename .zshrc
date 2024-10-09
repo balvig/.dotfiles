@@ -34,12 +34,6 @@ stty -ixon
 # Custom bins like git-suggest
 export PATH="$HOME/.dotfiles/bin:$PATH"
 
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-if type "rbenv" > /dev/null; then
-  eval "$(rbenv init -)"
-fi
-
 # Amend and push
 alias gfup="git commit -a --amend --no-edit && git push -f"
 
