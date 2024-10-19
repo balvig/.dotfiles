@@ -60,6 +60,9 @@ eval "$(mcfly init zsh)"
 # https://asdf-vm.com/guide/getting-started.html
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
+# Start zellij on boot
+eval "$(zellij setup --generate-auto-start zsh)"
+
 # ls aliases
 alias ls='eza -lh --group-directories-first --icons --hyperlink'
 alias lsa='ls -a'
