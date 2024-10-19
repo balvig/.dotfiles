@@ -3,7 +3,7 @@ decorations = "Buttonless"
 option_as_alt = "Both"
 padding.x = 8
 padding.y = 8
-opacity = 0.9
+opacity = 0.95
 
 [colors]
 transparent_background_colors = true
