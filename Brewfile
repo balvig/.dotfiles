@@ -7,9 +7,10 @@ brew "fd" # find files
 brew "ripgrep" # fast grep
 brew "gnu-sed" #  search and replace
 
-# Comand line tools
+# Command line tools
 brew "act" # Run GitHub Actions locally
 brew "asdf" # Version manager
+brew "eza" # Modernized `ls`
 brew "neovim" # Text editor
 brew "gh" # GitHub CLI
 brew "fzf" # Search tool

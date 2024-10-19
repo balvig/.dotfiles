@@ -59,3 +59,9 @@ eval "$(mcfly init zsh)"
 
 # https://asdf-vm.com/guide/getting-started.html
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# ls aliases
+alias ls='eza -lh --group-directories-first --icons --hyperlink'
+alias lsa='ls -a'
+alias lt='eza --tree --level=2 --long --icons --git'
+alias lta='lt -a'
