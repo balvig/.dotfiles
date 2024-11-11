@@ -4,6 +4,7 @@ option_as_alt = "Both"
 padding.x = 8
 padding.y = 8
 opacity = 0.95
+startup_mode = "SimpleFullscreen"
 
 [colors]
 transparent_background_colors = true
