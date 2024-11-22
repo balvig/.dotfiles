@@ -24,13 +24,13 @@ brew "caarlos0/tap/svu" # Semantic Versioning util
 brew "mcfly" # Better history
 brew "zoxide" # Better cd
 brew "heroku" # Heroku CLI
-brew "envchain" # Secure env vars
+brew "bat" # Better cat
 
 # App stuff
 brew "yarn" # JS package
 brew "imagemagick" # Image manipulation
 brew "ffmpeg" # Video manipulation
-brew "postgresql" # Database
+brew "postgresql@15" # Database
 brew "libpq" # Postgres lib for gem compilation
 brew "openssl@1.1" # OpenSSL for gem compilation
 
