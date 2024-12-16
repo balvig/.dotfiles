@@ -14,5 +14,9 @@ return {
       failed = "",
       unknown = ""
     }
-  }
+  },
+  keys = {
+    { "<leader>ta", function() require("neotest").run.attach() end, desc = "Attach To Test" },
+    -- { "<leader>td", function() require("neotest").run.run(); require("neotest").run.attach() end, desc = "Run and attach to nearest" },
+  },
 }
