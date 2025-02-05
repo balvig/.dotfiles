@@ -65,3 +65,6 @@ alias ls='eza -lh --group-directories-first --icons --hyperlink'
 alias lsa='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git'
 alias lta='lt -a'
+
+# Custom config location for lazygit
+export XDG_CONFIG_HOME="$HOME/.config"

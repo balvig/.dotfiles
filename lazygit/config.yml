@@ -1,0 +1,18 @@
+customCommands:
+  - key: 'T'
+    context: 'global'
+    command: 'gh start "{{.Form.Story}}"'
+    description: 'Start new story (gh start)'
+    prompts:
+      - type: 'input'
+        title: 'What is the story name?'
+        key: 'Story'
+        initialValue: ''
+  - key: 'F'
+    context: 'global'
+    command: 'gfup'
+    description: 'Amend and force push (gfup)'
+  - key: 'O'
+    context: 'global'
+    command: 'gh pr view --web'
+    description: 'Open current PR'

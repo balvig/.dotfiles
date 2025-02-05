@@ -15,6 +15,7 @@ ln -sf ~/.dotfiles/nvim ~/.config/nvim
 ln -sf ~/.dotfiles/zellij ~/.config/zellij
 ln -sf ~/.dotfiles/alacritty ~/.config/alacritty
 ln -sf ~/.dotfiles/gh-dash ~/.config/gh-dash
+ln -sf ~/.dotfiles/lazygit ~/.config/lazygit
 ```
 
 #### Install Homebrew apps and swap out Alacritty icon
