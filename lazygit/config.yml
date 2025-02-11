@@ -10,7 +10,7 @@ customCommands:
         initialValue: ''
   - key: 'F'
     context: 'global'
-    command: 'gfup'
+    command: 'git commit -a --amend --no-edit && git push -f'
     description: 'Amend and force push (gfup)'
   - key: 'O'
     context: 'global'
