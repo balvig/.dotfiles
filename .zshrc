@@ -58,7 +58,7 @@ eval "$(zoxide init zsh)"
 eval "$(mcfly init zsh)"
 
 # https://asdf-vm.com/guide/getting-started.html
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # ls aliases
 alias ls='eza -lh --group-directories-first --icons --hyperlink'
