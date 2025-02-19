@@ -28,7 +28,7 @@ brew "bat" # Better cat
 
 # App stuff
 brew "yarn" # JS package
-brew "imagemagick" # Image manipulation
+brew "vips" # Image manipulation
 brew "ffmpeg" # Video manipulation
 brew "postgresql@15" # Database
 brew "libpq" # Postgres lib for gem compilation
