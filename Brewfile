@@ -31,7 +31,7 @@ brew "yarn" # JS package
 brew "vips" # Image manipulation
 brew "ffmpeg" # Video manipulation
 brew "postgresql@15" # Database
-brew "libpq" # Postgres lib for gem compilation
+brew "libpq", link: :force # Postgres lib for gem compilation and pg_dump
 brew "openssl@1.1" # OpenSSL for gem compilation
 
 # Nerd fonts
