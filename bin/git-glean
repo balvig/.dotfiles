@@ -13,14 +13,15 @@ fi
 if [ "$1" = "-f" ]; then
   echo "$GONE_BRANCHES" | xargs git branch -D
 else
-  echo "$GONE_BRANCHES" | xargs git branch -d 2>/dev/null
+  echo "$GONE_BRANCHES" | xargs git branch -d
   if [ $? -ne 0 ]; then
     FAILED_TO_DELETE="true"
   fi
 fi
 
 if [ "$FAILED_TO_DELETE" = "true" ]; then
-  echo "error: Some local branches are not fully merged."
+  echo ""
+  echo "Some local branches are not fully merged."
   echo "If you are sure you want to delete them, run 'git-glean -f'"
 fi
 
