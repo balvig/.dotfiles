@@ -11,6 +11,7 @@ git clone https://github.com/balvig/.dotfiles.git
 ln -sf .dotfiles/.zshrc .zshrc
 ln -sf .dotfiles/.gitignore_global .gitignore_global
 ln -sf .dotfiles/.gitconfig .gitconfig
+ln -sf .dotfiles/.rubocop.yml .rubocop.yml
 ln -sf ~/.dotfiles/nvim ~/.config/nvim
 ln -sf ~/.dotfiles/zellij ~/.config/zellij
 ln -sf ~/.dotfiles/alacritty ~/.config/alacritty
