@@ -1,6 +1,7 @@
 tap "jesseduffield/lazygit"
 tap "jesseduffield/lazydocker"
 tap "heroku/brew"
+tap "lucagrulla/tap"
 
 # Lazyvim dependencies
 brew "fd" # find files
@@ -10,6 +11,8 @@ brew "gnu-sed" #  search and replace
 # Command line tools
 brew "act" # Run GitHub Actions locally
 brew "asdf" # Version manager
+brew "awscli" # AWS CLI
+brew "cw", tap: "lucagrulla/tap" # CloudWatch logs
 brew "eza" # Modernized `ls`
 brew "neovim" # Text editor
 brew "gh" # GitHub CLI
