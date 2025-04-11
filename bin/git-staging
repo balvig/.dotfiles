@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+git branch -D staging
+git checkout -b staging
+git push -f origin staging
+git checkout -
