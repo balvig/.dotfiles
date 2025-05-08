@@ -50,8 +50,6 @@
   defaultBranch = main
 [credential "https://dev.azure.com"]
   useHttpPath = true
-[blame]
-	ignoreRevsFile = .git-blame-ignore-revs
 [merge]
   conflictstyle = zdiff3
 [interactive]
