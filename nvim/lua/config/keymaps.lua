@@ -5,3 +5,5 @@
 vim.keymap.set("n", "<leader>gH", function()
   Snacks.terminal.open({ "gh", "dash" }, { esc_esc = false, ctrl_hjkl = false })
 end, { desc = "GH Dash (cwd)" })
+
+vim.keymap.set("n", "<leader>cM", [[$v%lohc<CR><CR><Up><C-r>"<Esc>:s/,/,\r/g<CR>:'[,']norm ==<CR>]], { noremap = true, silent = true, desc = "Line break arguments" })
