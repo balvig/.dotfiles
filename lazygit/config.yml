@@ -16,3 +16,15 @@ customCommands:
     context: 'global'
     command: 'gh pr view --web'
     description: 'Open current PR'
+  - key: 'B'
+    context: 'global'
+    command: 'git bump {{.Form.Version}}'
+    description: 'Bump version and create release (git bump)'
+    prompts:
+      - type: 'menu'
+        title: 'Enter version type (major, minor, patch) '
+        key: 'Version'
+        options:
+          - value: 'patch'
+          - value: 'minor'
+          - value: 'major'
