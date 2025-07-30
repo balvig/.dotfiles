@@ -15,6 +15,7 @@ ln -sf .dotfiles/.rubocop.yml .rubocop.yml
 ln -sf ~/.dotfiles/nvim ~/.config/nvim
 ln -sf ~/.dotfiles/zellij ~/.config/zellij
 ln -sf ~/.dotfiles/alacritty ~/.config/alacritty
+ln -sf ~/.dotfiles/ghostty ~/.config/ghostty
 ln -sf ~/.dotfiles/gh-dash ~/.config/gh-dash
 ln -sf ~/.dotfiles/lazygit ~/.config/lazygit
 ```

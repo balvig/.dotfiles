@@ -1,0 +1,24 @@
+# Window settings
+window-decoration = false
+macos-titlebar-style = hidden
+window-padding-x = 8
+window-padding-y = 8
+background-opacity = 0.98
+window-new-tab-position = end
+
+# Font settings
+font-family = "JetBrainsMono Nerd Font"
+font-size = 12
+
+# Colors
+background-blur = 20
+
+# Key bindings for tab switching (Cmd 1-8 maps to Zellij tabs)
+keybind = super+1=text:\u{E000}
+keybind = super+2=text:\u{E001}
+keybind = super+3=text:\u{E002}
+keybind = super+4=text:\u{E003}
+keybind = super+5=text:\u{E004}
+keybind = super+6=text:\u{E005}
+keybind = super+7=text:\u{E006}
+keybind = super+8=text:\u{E007}
