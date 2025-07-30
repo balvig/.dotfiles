@@ -37,6 +37,9 @@ export PATH="$HOME/.dotfiles/bin:$PATH"
 # Amend and push
 alias gfup="git commit -a --amend --no-edit && git push -f"
 
+# Reboot wacom tablet service
+alias wacom="launchctl unload /Library/LaunchAgents/com.wacom.* && launchctl load /Library/LaunchAgents/com.wacom.*"
+
 # Fuzzy search
 export FZF_DEFAULT_COMMAND="ag -l --nocolor -g ." fzf # use the silver searcher for fzf
 source <(fzf --zsh)
@@ -52,8 +55,8 @@ eval "$(zoxide init zsh)"
 # https://github.com/cantino/mcfly
 eval "$(mcfly init zsh)"
 
-# https://asdf-vm.com/guide/getting-started.html
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# For https://github.com/Aider-AI/aider
+export PATH="$HOME/.local/bin:$PATH"
 
 # ls aliases
 alias ls='eza -lh --group-directories-first --icons --hyperlink'
@@ -63,3 +66,7 @@ alias lta='lt -a'
 
 # Custom config location for lazygit
 export XDG_CONFIG_HOME="$HOME/.config"
+
+# https://mise.jdx.dev/getting-started.html
+. "$HOME/.local/bin/env"
+eval "$(mise activate zsh)"

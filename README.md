@@ -27,12 +27,6 @@ brew bundle
 ./update-alacritty-icon.sh
 ```
 
-#### Install asdf plugins
-```bash
-asdf plugin-add nodejs
-asdf plugin-add ruby
-```
-
 #### Set up local gitconfig
 
 ```bash

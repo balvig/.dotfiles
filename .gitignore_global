@@ -6,3 +6,5 @@
 dump.rdb
 .idea
 .solargraph.yml
+.aider*
+.claude*

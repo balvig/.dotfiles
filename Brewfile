@@ -10,7 +10,7 @@ brew "gnu-sed" #  search and replace
 
 # Command line tools
 brew "act" # Run GitHub Actions locally
-brew "asdf" # Version manager
+brew "mise" # Version manager
 brew "awscli" # AWS CLI
 brew "cw", tap: "lucagrulla/tap" # CloudWatch logs
 brew "eza" # Modernized `ls`
