@@ -22,6 +22,10 @@ return {
         on_colors = function(colors)
           colors.fg_gutter = "#627E97"  -- Clearer line numbers
         end,
+        on_highlights = function(hl, c)
+          hl.WinSeparator = { fg = "#627E97", bg = "NONE" } -- Clearer window dividers
+          hl.SnacksIndent = { fg = "#3b4261", nocombine = true } -- Less distracting indent guides
+        end,
       })
     end
   },
