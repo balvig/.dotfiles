@@ -70,3 +70,9 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # https://mise.jdx.dev/getting-started.html
 . "$HOME/.local/bin/env"
 eval "$(mise activate zsh)"
+
+# Create zellij session with useful name https://kristianfreeman.com/create-a-zellij-instance-with-a-useful-session-name
+za() {
+  local session_name=${1:-${PWD:t}}
+  zellij attach "$session_name" || zellij -s "$session_name"
+}
