@@ -1,4 +1,5 @@
-  return {
+return {
+  {
     "rcarriga/nvim-dap-ui",
     opts = {
       layouts = {
@@ -15,4 +16,11 @@
     keys = {
       { "<leader>dx", function() require("dap").clear_breakpoints() end, desc = "Clear All Breakpoints" }
     }
+  },
+  {
+    "theHamsta/nvim-dap-virtual-text",
+    opts = {
+      enabled = false
+    },
   }
+}
