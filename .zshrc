@@ -74,5 +74,13 @@ eval "$(mise activate zsh)"
 # Create zellij session with useful name https://kristianfreeman.com/create-a-zellij-instance-with-a-useful-session-name
 za() {
   local session_name=${1:-${PWD:t}}
+  local matching_sessions=($(zellij list-sessions 2>/dev/null | grep "$session_name" | awk '{print $1}' | sed 's/\x1b\[[0-9;]*m//g'))
+
+  if [[ ${#matching_sessions[@]} -gt 1 ]]; then
+    session_name=$(printf '%s\n' "${matching_sessions[@]}" | fzf --prompt="Select session: ")
+  elif [[ ${#matching_sessions[@]} -eq 1 ]]; then
+    session_name="${matching_sessions[1]}"
+  fi
+
   zellij attach "$session_name" || zellij -s "$session_name"
 }
