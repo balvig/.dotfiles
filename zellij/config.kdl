@@ -161,7 +161,7 @@ keybinds clear-defaults=true {
         bind "Alt o" { MoveTab "right"; }
     }
     shared_except "locked" "session" {
-        bind "Alt s" { SwitchToMode "session"; }
+        bind "Ctrl m" { SwitchToMode "session"; }
     }
     shared_except "locked" "scroll" "search" {
         bind "Ctrl s" { SwitchToMode "scroll"; }
