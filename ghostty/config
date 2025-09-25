@@ -21,5 +21,5 @@ keybind = super+6=text:\u{E005}
 keybind = super+7=text:\u{E006}
 keybind = super+8=text:\u{E007}
 
-# Clickable links
 link-url = true
+copy-on-select = clipboard
