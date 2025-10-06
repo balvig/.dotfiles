@@ -3,7 +3,7 @@ return {
   opts = {
     formatters = {
       erb_format = {
-        prepend_args = { "--print-width=150" },
+        prepend_args = { "--print-width=130" },
       },
     },
   },
