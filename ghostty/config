@@ -12,14 +12,14 @@ font-feature = -dlig # fix weird Japanese issues
 background-blur = true
 
 # Key bindings for tab switching (Cmd 1-8 maps to Zellij tabs)
-keybind = super+1=text:\u{E000}
-keybind = super+2=text:\u{E001}
-keybind = super+3=text:\u{E002}
-keybind = super+4=text:\u{E003}
-keybind = super+5=text:\u{E004}
-keybind = super+6=text:\u{E005}
-keybind = super+7=text:\u{E006}
-keybind = super+8=text:\u{E007}
+keybind = super+Digit1=text:\u{e000}
+keybind = super+Digit2=text:\u{e001}
+keybind = super+Digit3=text:\u{e002}
+keybind = super+Digit4=text:\u{e003}
+keybind = super+Digit5=text:\u{e004}
+keybind = super+Digit6=text:\u{e005}
+keybind = super+Digit7=text:\u{e006}
+keybind = super+Digit8=text:\u{e007}
 
 link-url = true
 copy-on-select = clipboard
