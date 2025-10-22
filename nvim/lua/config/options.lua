@@ -7,3 +7,6 @@ vim.g.autoformat = false
 
 -- Set max line length
 vim.opt.colorcolumn = "120"
+
+-- Disable LazyVim statuscolumn to prevent errors in special buffers
+vim.opt.statuscolumn = ""
