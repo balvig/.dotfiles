@@ -1,11 +1,11 @@
 return {
   "nvim-neotest/neotest",
   dependencies = {
-    "zidhuss/neotest-minitest"
+    "zidhuss/neotest-minitest",
   },
   opts = {
     adapters = {
-      ["neotest-minitest"] = {}
+      ["neotest-minitest"] = {},
     },
     icons = {
       expanded = "",
@@ -18,11 +18,25 @@ return {
       passed = "",
       running = "",
       failed = "",
-      unknown = ""
-    }
+      unknown = "",
+    },
+    output = {
+      enabled = true, -- show test output on failure
+    },
+    quickfix = {
+      enabled = false, -- Disable the split window with broken parsings
+    },
+    status = {
+      virtual_text = false, -- Don't show text inline
+    },
   },
   keys = {
-    { "<leader>ta", function() require("neotest").run.attach() end, desc = "Attach To Test" },
-    -- { "<leader>td", function() require("neotest").run.run(); require("neotest").run.attach() end, desc = "Run and attach to nearest" },
+    {
+      "<leader>ta",
+      function()
+        require("neotest").run.attach()
+      end,
+      desc = "Attach To Test",
+    },
   },
 }
