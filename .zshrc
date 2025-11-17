@@ -40,6 +40,8 @@ alias gfup="git commit -a --amend --no-edit && git push -f"
 # Reboot wacom tablet service
 alias wacom="launchctl unload /Library/LaunchAgents/com.wacom.* && launchctl load /Library/LaunchAgents/com.wacom.*"
 
+alias notify="osascript -e 'display notification \"Done\" with title \"Terminal\"'"
+
 # Fuzzy search
 export FZF_DEFAULT_COMMAND="ag -l --nocolor -g ." fzf # use the silver searcher for fzf
 source <(fzf --zsh)
