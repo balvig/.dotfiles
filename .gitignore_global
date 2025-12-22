@@ -7,5 +7,5 @@ dump.rdb
 .idea
 .solargraph.yml
 .aider*
-.claude*
+.claude/settings.local.json
 .crush*
