@@ -23,7 +23,7 @@ brew "jesseduffield/lazydocker/lazydocker" # Docker GUI
 brew "zellij" # Terminal multiplexer
 brew "antigen" # Zsh plugin manager
 brew "diff-so-fancy" # Pretty git diff
-brew "caarlos0/tap/svu" # Semantic Versioning util
+brew "svu" # Semantic Versioning util
 brew "mcfly" # Better history
 brew "zoxide" # Better cd
 brew "heroku" # Heroku CLI
