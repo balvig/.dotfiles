@@ -28,6 +28,7 @@ brew "mcfly" # Better history
 brew "zoxide" # Better cd
 brew "heroku" # Heroku CLI
 brew "bat" # Better cat
+brew "git-lfs" # Git Large File Storage
 
 # App stuff
 brew "yarn" # JS package
