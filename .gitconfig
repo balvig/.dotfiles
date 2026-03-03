@@ -52,5 +52,3 @@
   useHttpPath = true
 [merge]
   conflictstyle = zdiff3
-[interactive]
-	diffFilter = diff-so-fancy --patch
