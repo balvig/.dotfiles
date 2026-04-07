@@ -7,3 +7,11 @@ vim.api.nvim_create_autocmd("FileType", {
   pattern = "eruby.yaml",
   command = "set filetype=yaml",
 })
+
+-- Show raw markdown syntax instead of concealing it
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "markdown",
+  callback = function()
+    vim.opt_local.conceallevel = 0
+  end,
+})
